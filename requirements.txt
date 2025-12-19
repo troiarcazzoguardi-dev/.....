@@ -1,0 +1,26 @@
+# Compilatori e strumenti di build
+build-essential
+clang
+make
+gcc
+cmake
+git
+
+# Headers di sistema
+libc6-dev
+linux-headers-$(uname -r)
+
+# Libbpf e sviluppo BPF/XDP
+libbpf-dev
+libelf-dev
+libpcap-dev
+
+# Utility NIC e rete
+iproute2
+ethtool
+
+# Supporto threading / timing / CPU pinning
+libpthread-stubs0-dev
+
+# Hugepages consigliate (configurazione manuale)
+# echo 512 > /proc/sys/vm/nr_hugepages
