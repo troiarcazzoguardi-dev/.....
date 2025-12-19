@@ -1,0 +1,9 @@
+chmod +x tuning.sh
+sudo ./tuning.sh eth0
+
+chmod +x setup.sh
+sudo ./setup.sh eth0
+sudo ./hpingx -p 53 -r 40000000 -d 10 -i eth0 -X 8.8.8.8
+sudo systemctl stop irqbalance
+echo 512 | sudo tee /proc/sys/vm/nr_hugepages
+sudo ethtool -K eth0 gro off lro off tso off gso off rx off tx off
