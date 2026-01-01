@@ -1,0 +1,14 @@
+# Terminal corrente: LASCIALO CORRERE (infinite waves)
+
+# NUOVO TERMINALE 1: Total monitor
+watch -n 10 '
+echo "=== GHOSTMIXER STATUS ==="
+torsocks curl -s "https://blockstream.info/api/address/bc1qwe2t927r4e2l43gqr0zln45zzlyvj3mw0wd4fx" | jq -r ".chain_stats | \"TOTAL: \(.funded_txo_sum) sats | TX: \(.tx_count)\"";
+echo "TOR IP: $(torsocks curl -s icanhazip.com)";
+echo "Split ready: $(wc -l < split.txt) wallets"
+'
+
+# NUOVO TERMINALE 2: ETH monitor  
+watch -n 30 '
+curl -s "https://api.etherscan.io/api?module=account&action=balance&address=0x3f0fF10069c1B36e255F23f1CfD0cE35bE9F0936" | jq -r ".result // 0"
+'
