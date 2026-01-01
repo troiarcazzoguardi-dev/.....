@@ -1,0 +1,37 @@
+#!/bin/bash
+# create-wallets.sh - Genera BTC/ETH puliti
+cd ~/ghostmixer
+
+cat > wallets.py << 'EOF'
+#!/usr/bin/env python3
+import secrets, hashlib, ecdsa
+from eth_account import Account
+import binascii
+
+# BTC Wallet (P2WPKH anon)
+btc_priv = secrets.token_bytes(32)
+btc_sk = ecdsa.SigningKey.from_string(btc_priv, curve=ecdsa.SECP256k1)
+btc_vk = btc_sk.verifying_key
+btc_pub = b'\x02' + btc_vk.to_string()[:32] if btc_vk.to_string()[63] % 2 == 0 else b'\x03' + btc_vk.to_string()[:32]
+btc_hash = hashlib.sha256(btc_pub).digest()
+btc_addr = 'bc1q' + hashlib.blake2b(btc_hash, digest_size=20).hexdigest()
+print(f"✅ BTC_WALLET={btc_addr}")
+print(f"BTC_SEED={binascii.hexlify(btc_priv).decode()}")
+
+# ETH Wallet (EVM anon)
+Account.enable_unaudited_hdwallet_features()
+eth_wallet = Account.create()
+print(f"✅ ETH_WALLET={eth_wallet.address}")
+print(f"ETH_PK={eth_wallet.key.hex()}")
+
+# Salva file
+with open('wallets.txt', 'w') as f:
+    f.write(f"BTC_WALLET={btc_addr}\n")
+    f.write(f"ETH_WALLET={eth_wallet.address}\n")
+    f.write(f"ETH_PK={eth_wallet.key.hex()}\n")
+    f.write(f"BTC_SEED={binascii.hexlify(btc_priv).decode()}\n")
+print("💾 Salvato in wallets.txt")
+EOF
+
+python3 wallets.py
+cat wallets.txt  # COPIA QUESTI 4 VALORI
