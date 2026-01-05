@@ -224,3 +224,1013 @@ torsocks mosquitto_sub -h 128.255.220.144 -p 1883 -t '#'
 {"method":"GET"}
 {"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/0254BF020700/if/device/0/nv_HPSolState/2a27b3f6a45aa1993b5b96fb9e5d1731"}
 {"method":"GET"}
+
+
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/0254BF020700/if/device/0/nv_Pressure/2a27b3f6a45aa1993b5b96fb9e5d1731"}
+{"method":"GET"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/0244BF020700/if/device/0/nv_PressureState/a200b92f3dc0e0621974a7b56e84ed9f"}
+{"method":"GET"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/0244BF020700/if/device/0/nv_FlowState/a200b92f3dc0e0621974a7b56e84ed9f"}
+{"method":"PUT","url":"/~/10/fb/VirtualFb/dp/nv_PressureState/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:20.863Z","value":1},"status":200}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/0244BF020700/if/device/0/nv_HPSolState/a200b92f3dc0e0621974a7b56e84ed9f"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/0244BF020700/if/device/0/nv_Pressure/a200b92f3dc0e0621974a7b56e84ed9f"}
+{"method":"GET"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/025967EF1200/if/device/0/nv_PressureState/0d96cbfd66c1fed21c0eb2f3b4bf7641"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/025967EF1200/if/device/0/nv_FlowState/0d96cbfd66c1fed21c0eb2f3b4bf7641"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/025967EF1200/if/device/0/nv_HPSolState/0d96cbfd66c1fed21c0eb2f3b4bf7641"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/025967EF1200/if/device/0/nv_Pressure/0d96cbfd66c1fed21c0eb2f3b4bf7641"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/025A5BE10500/if/device/0/nv_Temperature/86aef866b66290362eb1015a5a6d316d"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/025A5BE10500/if/device/0/nv_Humidity/86aef866b66290362eb1015a5a6d316d"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/025A5BE10500/if/device/0/nv_Lights/86aef866b66290362eb1015a5a6d316d"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/025A5BE10500/if/device/0/nv_Light_FTC/86aef866b66290362eb1015a5a6d316d"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02626DE10500/if/device/0/nv_Temperature/c3d4ef0e3e5e4cdf6bb88bea56329e96"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02626DE10500/if/device/0/nv_Humidity/c3d4ef0e3e5e4cdf6bb88bea56329e96"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02626DE10500/if/device/0/nv_Lights/c3d4ef0e3e5e4cdf6bb88bea56329e96"}
+{"value":1,"health":"normal"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02626DE10500/if/device/0/nv_Light_FTC/c3d4ef0e3e5e4cdf6bb88bea56329e96"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002321640300/if/device/0/nv_LightOutInfo/3eb85f1fbd42508285b7cfdd53caf863"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002321640300/if/device/0/nv_LightOverride/3eb85f1fbd42508285b7cfdd53caf863"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002321640300/if/device/0/nv_TimeOutInfo/3eb85f1fbd42508285b7cfdd53caf863"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002320961700/if/device/0/nv_LightOutInfo/08c3ec2a5e9da62da2ebe46dd84c43c2"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002320961700/if/device/0/nv_LightOverride/08c3ec2a5e9da62da2ebe46dd84c43c2"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002320961700/if/device/0/nv_TimeOutInfo/08c3ec2a5e9da62da2ebe46dd84c43c2"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325448200/if/device/0/nv_LightOutInfo/ca769a9277fd1e3cbee9e309406f0443"}
+{"method":"GET"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325448200/if/device/0/nv_LightOverride/ca769a9277fd1e3cbee9e309406f0443"}
+{"method":"GET"}
+{"method":"PUT","url":"/~/10/fb/VirtualFb/dp/nv_FlowState/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:20.884Z","value":0},"status":200}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325448200/if/device/0/nv_TimeOutInfo/ca769a9277fd1e3cbee9e309406f0443"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02DE137A0600/if/device/0/nv_Temperature/aa79a89bd0b9b0b0064b3f3c1ae154cc"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02DE137A0600/if/device/0/nv_Humidity/aa79a89bd0b9b0b0064b3f3c1ae154cc"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02DE137A0600/if/device/0/nv_Lights/aa79a89bd0b9b0b0064b3f3c1ae154cc"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02DE137A0600/if/device/0/nv_Light_FTC/aa79a89bd0b9b0b0064b3f3c1ae154cc"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002321640400/if/device/0/nv_LightOutInfo/46d12dce74f76dab60390cb7c0db230e"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002321640400/if/device/0/nv_LightOverride/46d12dce74f76dab60390cb7c0db230e"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002321640400/if/device/0/nv_TimeOutInfo/46d12dce74f76dab60390cb7c0db230e"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325451500/if/device/0/nv_LightOutInfo/b77eb2399fcafb78a91e1e0ac3b26ff8"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325451500/if/device/0/nv_LightOverride/b77eb2399fcafb78a91e1e0ac3b26ff8"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325451500/if/device/0/nv_TimeOutInfo/b77eb2399fcafb78a91e1e0ac3b26ff8"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/029417460500/if/device/0/nv_Temperature/1608b8afd7ca92671054d236ba47f22f"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/029417460500/if/device/0/nv_Humidity/1608b8afd7ca92671054d236ba47f22f"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/029417460500/if/device/0/nv_Lights/1608b8afd7ca92671054d236ba47f22f"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/029417460500/if/device/0/nv_Light_FTC/1608b8afd7ca92671054d236ba47f22f"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02DF137A0600/if/device/0/nv_Temperature/d67248372cc07548b1f7a622db3c829b"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02DF137A0600/if/device/0/nv_Humidity/d67248372cc07548b1f7a622db3c829b"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02DF137A0600/if/device/0/nv_Lights/d67248372cc07548b1f7a622db3c829b"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02DF137A0600/if/device/0/nv_Light_FTC/d67248372cc07548b1f7a622db3c829b"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02C3CCB00400/if/device/0/nv_Temperature/1d9dce1f0c04d822c7f97f5a0e57425b"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02C3CCB00400/if/device/0/nv_Humidity/1d9dce1f0c04d822c7f97f5a0e57425b"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02C3CCB00400/if/device/0/nv_Lights/1d9dce1f0c04d822c7f97f5a0e57425b"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02C3CCB00400/if/device/0/nv_Light_FTC/1d9dce1f0c04d822c7f97f5a0e57425b"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325448400/if/device/0/nv_LightOutInfo/f8d91798dfc3bba5e32fb8fa1709f324"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325448400/if/device/0/nv_LightOverride/f8d91798dfc3bba5e32fb8fa1709f324"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325448400/if/device/0/nv_TimeOutInfo/f8d91798dfc3bba5e32fb8fa1709f324"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02D3CAB00400/if/device/0/nv_Temperature/077b789f9eb5ec2a74356eaf7df5b92b"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02D3CAB00400/if/device/0/nv_Humidity/077b789f9eb5ec2a74356eaf7df5b92b"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02D3CAB00400/if/device/0/nv_Lights/077b789f9eb5ec2a74356eaf7df5b92b"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02D3CAB00400/if/device/0/nv_Light_FTC/077b789f9eb5ec2a74356eaf7df5b92b"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325449900/if/device/0/nv_LightOutInfo/e445f9309c512902e5e4441e338c8ee9"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325449900/if/device/0/nv_LightOverride/e445f9309c512902e5e4441e338c8ee9"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325449900/if/device/0/nv_TimeOutInfo/e445f9309c512902e5e4441e338c8ee9"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325449800/if/device/0/nv_LightOutInfo/488e5b28702212ab4f35a9547dd6713d"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325449800/if/device/0/nv_LightOverride/488e5b28702212ab4f35a9547dd6713d"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325449800/if/device/0/nv_TimeOutInfo/488e5b28702212ab4f35a9547dd6713d"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/0260147A0600/if/device/0/nv_Temperature/058fd9afe42a868d835b3dbfa9b86e43"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/0260147A0600/if/device/0/nv_Humidity/058fd9afe42a868d835b3dbfa9b86e43"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/0260147A0600/if/device/0/nv_Lights/058fd9afe42a868d835b3dbfa9b86e43"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/0260147A0600/if/device/0/nv_Light_FTC/058fd9afe42a868d835b3dbfa9b86e43"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"PUT","url":"/~/11/fb/VirtualFb/dp/nv_PressureState/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:20.938Z","value":1},"status":200}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"value":0,"health":"normal"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"PUT","url":"/~/10/fb/VirtualFb/dp/nv_HPSolState/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:20.959Z","value":0},"status":200}
+{"method":"GET"}
+{"method":"PUT","url":"/~/11/fb/VirtualFb/dp/nv_FlowState/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:20.964Z","value":0},"status":200}
+{"method":"GET"}
+{"method":"PUT","url":"/~/10/fb/VirtualFb/dp/nv_Pressure/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:20.983Z","value":4.82},"status":200}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"PUT","url":"/~/13/fb/VirtualFb/dp/nv_Temperature/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.003Z","value":71.83},"status":200}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"PUT","url":"/~/12/fb/VirtualFb/dp/nv_PressureState/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.014Z","value":1},"status":200}
+{"method":"PUT","url":"/~/12/fb/VirtualFb/dp/nv_FlowState/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.033Z","value":0},"status":200}
+{"method":"PUT","url":"/~/11/fb/VirtualFb/dp/nv_HPSolState/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.040Z","value":0},"status":200}
+{"method":"PUT","url":"/~/11/fb/VirtualFb/dp/nv_Pressure/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.060Z","value":4.187},"status":200}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"PUT","url":"/~/13/fb/VirtualFb/dp/nv_Humidity/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.065Z","value":34.22},"status":200}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"value":1,"health":"normal"}
+{"value":0,"health":"normal"}
+{"value":0,"health":"normal"}
+{"value":4.82,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:20.983Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/0254BF020700/if/device/0","health":"normal","message":"nv_Pressure/value","data":4.82,"source":"lon"}
+{"value":71.83,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:21.003Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/025A5BE10500/if/device/0","health":"normal","message":"nv_Temperature/value","data":71.83,"source":"lon"}
+{"value":1,"health":"normal"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"value":0,"health":"normal"}
+{"value":0,"health":"normal"}
+{"value":4.187,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:21.060Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/0244BF020700/if/device/0","health":"normal","message":"nv_Pressure/value","data":4.187,"source":"lon"}
+{"value":34.22,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:21.065Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/025A5BE10500/if/device/0","health":"normal","message":"nv_Humidity/value","data":34.22,"source":"lon"}
+{"result":[{"value":1,"health":"normal","item":"dev/lon/0254BF020700/if/device/0/nv_PressureState"},{"value":0,"health":"normal","item":"dev/lon/0254BF020700/if/device/0/nv_FlowState"},{"value":0,"health":"normal","item":"dev/lon/0254BF020700/if/device/0/nv_HPSolState"},{"value":4.82,"health":"normal","item":"dev/lon/0254BF020700/if/device/0/nv_Pressure"}]}
+{"method":"PUT","url":"/~/13/fb/VirtualFb/dp/nv_Lights/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.090Z","value":0},"status":200}
+{"method":"PUT","url":"/~/14/fb/VirtualFb/dp/nv_Temperature/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.096Z","value":73.1},"status":200}
+{"method":"PUT","url":"/~/13/fb/VirtualFb/dp/nv_Light_FTC/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.108Z","value":103},"status":200}
+{"method":"PUT","url":"/~/14/fb/VirtualFb/dp/nv_Humidity/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.113Z","value":34.19},"status":200}
+{"method":"PUT","url":"/~/12/fb/VirtualFb/dp/nv_HPSolState/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.117Z","value":0},"status":200}
+{"method":"PUT","url":"/~/14/fb/VirtualFb/dp/nv_Lights/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.136Z","value":0},"status":200}
+{"value":0,"health":"normal"}
+{"value":73.1,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:21.096Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/02626DE10500/if/device/0","health":"normal","message":"nv_Temperature/value","data":73.1,"source":"lon"}
+{"value":103,"health":"normal"}
+{"value":34.19,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:21.113Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/02626DE10500/if/device/0","health":"normal","message":"nv_Humidity/value","data":34.19,"source":"lon"}
+{"value":0,"health":"normal"}
+{"value":0,"health":"normal"}
+
+{"method":"PUT","url":"/~/14/fb/VirtualFb/dp/nv_Light_FTC/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.170Z","value":2},"status":200}
+{"result":[{"value":1,"health":"normal","item":"dev/lon/0244BF020700/if/device/0/nv_PressureState"},{"value":0,"health":"normal","item":"dev/lon/0244BF020700/if/device/0/nv_FlowState"},{"value":0,"health":"normal","item":"dev/lon/0244BF020700/if/device/0/nv_HPSolState"},{"value":4.187,"health":"normal","item":"dev/lon/0244BF020700/if/device/0/nv_Pressure"}]}
+{"method":"PUT","url":"/~/12/fb/VirtualFb/dp/nv_Pressure/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.194Z","value":4.407},"status":200}
+{"value":2,"health":"normal"}
+{"value":4.407,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:21.194Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/025967EF1200/if/device/0","health":"normal","message":"nv_Pressure/value","data":4.407,"source":"lon"}
+{"result":[{"value":71.83,"health":"normal","item":"dev/lon/025A5BE10500/if/device/0/nv_Temperature"},{"value":34.22,"health":"normal","item":"dev/lon/025A5BE10500/if/device/0/nv_Humidity"},{"value":0,"health":"normal","item":"dev/lon/025A5BE10500/if/device/0/nv_Lights"},{"value":103,"health":"normal","item":"dev/lon/025A5BE10500/if/device/0/nv_Light_FTC"}]}
+{"result":[{"value":73.1,"health":"normal","item":"dev/lon/02626DE10500/if/device/0/nv_Temperature"},{"value":34.19,"health":"normal","item":"dev/lon/02626DE10500/if/device/0/nv_Humidity"},{"value":0,"health":"normal","item":"dev/lon/02626DE10500/if/device/0/nv_Lights"},{"value":2,"health":"normal","item":"dev/lon/02626DE10500/if/device/0/nv_Light_FTC"}]}
+{"result":[{"value":1,"health":"normal","item":"dev/lon/025967EF1200/if/device/0/nv_PressureState"},{"value":0,"health":"normal","item":"dev/lon/025967EF1200/if/device/0/nv_FlowState"},{"value":0,"health":"normal","item":"dev/lon/025967EF1200/if/device/0/nv_HPSolState"},{"value":4.407,"health":"normal","item":"dev/lon/025967EF1200/if/device/0/nv_Pressure"}]}
+{"method":"PUT","url":"/~/16/fb/VirtualFb/dp/nv_LightOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.447Z","value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00"},"status":200}
+{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal"}
+{"method":"PUT","url":"/~/17/fb/VirtualFb/dp/nv_LightOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.452Z","value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00"},"status":200}
+{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal"}
+{"method":"PUT","url":"/~/15/fb/VirtualFb/dp/nv_LightOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.459Z","value":"00 00 00 00 00 00 00 00 00 00 FF 01 00 01 00 00 00 40 00 00"},"status":200}
+{"method":"PUT","url":"/~/17/fb/VirtualFb/dp/nv_LightOverride/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.486Z","value":"00 00 00"},"status":200}
+{"method":"PUT","url":"/~/16/fb/VirtualFb/dp/nv_LightOverride/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.490Z","value":"00 00 00"},"status":200}
+{"method":"PUT","url":"/~/15/fb/VirtualFb/dp/nv_LightOverride/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.496Z","value":"00 02 14"},"status":200}
+{"value":"00 00 00 00 00 00 00 00 00 00 FF 01 00 01 00 00 00 40 00 00","health":"normal"}
+{"value":"00 00 00","health":"normal"}
+{"value":"00 00 00","health":"normal"}
+{"value":"00 02 14","health":"normal"}
+{"method":"PUT","url":"/~/17/fb/VirtualFb/dp/nv_TimeOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.510Z","value":"00 2A 03 14 19 04"},"status":200}
+{"method":"PUT","url":"/~/16/fb/VirtualFb/dp/nv_TimeOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.518Z","value":"00 2A 03 14 19 04"},"status":200}
+{"method":"PUT","url":"/~/15/fb/VirtualFb/dp/nv_TimeOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.528Z","value":"03 E0 0B 05 18 02"},"status":200}
+{"method":"PUT","url":"/~/18/fb/VirtualFb/dp/nv_Temperature/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.533Z","value":72.46},"status":200}
+{"value":"00 2A 03 14 19 04","health":"normal"}
+{"method":"PUT","url":"/~/18/fb/VirtualFb/dp/nv_Humidity/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.554Z","value":37.9},"status":200}
+{"value":"00 2A 03 14 19 04","health":"normal"}
+{"value":"03 E0 0B 05 18 02","health":"normal"}
+{"value":72.46,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:21.533Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/02DE137A0600/if/device/0","health":"normal","message":"nv_Temperature/value","data":72.46,"source":"lon"}
+{"value":37.9,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:21.554Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/02DE137A0600/if/device/0","health":"normal","message":"nv_Humidity/value","data":37.9,"source":"lon"}
+{"method":"PUT","url":"/~/18/fb/VirtualFb/dp/nv_Lights/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.577Z","value":0},"status":200}
+{"method":"PUT","url":"/~/19/fb/VirtualFb/dp/nv_LightOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.583Z","value":"00 00 00 00 00 00 00 00 00 00 FF 00 00 01 00 00 00 40 65 00"},"status":200}
+{"result":[{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal","item":"dev/lon/002325448200/if/device/0/nv_LightOutInfo"},{"value":"00 00 00","health":"normal","item":"dev/lon/002325448200/if/device/0/nv_LightOverride"},{"value":"00 2A 03 14 19 04","health":"normal","item":"dev/lon/002325448200/if/device/0/nv_TimeOutInfo"}]}
+{"method":"PUT","url":"/~/18/fb/VirtualFb/dp/nv_Light_FTC/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.602Z","value":312},"status":200}
+{"result":[{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal","item":"dev/lon/002320961700/if/device/0/nv_LightOutInfo"},{"value":"00 00 00","health":"normal","item":"dev/lon/002320961700/if/device/0/nv_LightOverride"},{"value":"00 2A 03 14 19 04","health":"normal","item":"dev/lon/002320961700/if/device/0/nv_TimeOutInfo"}]}
+{"method":"PUT","url":"/~/19/fb/VirtualFb/dp/nv_LightOverride/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.609Z","value":"00 00 00"},"status":200}
+{"result":[{"value":"00 00 00 00 00 00 00 00 00 00 FF 01 00 01 00 00 00 40 00 00","health":"normal","item":"dev/lon/002321640300/if/device/0/nv_LightOutInfo"},{"value":"00 02 14","health":"normal","item":"dev/lon/002321640300/if/device/0/nv_LightOverride"},{"value":"03 E0 0B 05 18 02","health":"normal","item":"dev/lon/002321640300/if/device/0/nv_TimeOutInfo"}]}
+{"value":0,"health":"normal"}
+{"method":"PUT","url":"/~/20/fb/VirtualFb/dp/nv_LightOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.619Z","value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00"},"status":200}
+{"value":"00 00 00 00 00 00 00 00 00 00 FF 00 00 01 00 00 00 40 65 00","health":"normal"}
+{"value":312,"health":"normal"}
+{"value":"00 00 00","health":"normal"}
+{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal"}
+{"method":"PUT","url":"/~/30/fb/VirtualFb/dp/nv_Temperature/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.638Z","value":69.62},"status":200}
+{"method":"PUT","url":"/~/19/fb/VirtualFb/dp/nv_TimeOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.644Z","value":"03 D1 0B 05 18 02"},"status":200}
+{"value":69.62,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:21.638Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/029417460500/if/device/0","health":"normal","message":"nv_Temperature/value","data":69.62,"source":"lon"}
+{"method":"PUT","url":"/~/20/fb/VirtualFb/dp/nv_LightOverride/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.648Z","value":"00 00 00"},"status":200}
+{"value":"03 D1 0B 05 18 02","health":"normal"}
+{"value":"00 00 00","health":"normal"}
+{"result":[{"value":72.46,"health":"normal","item":"dev/lon/02DE137A0600/if/device/0/nv_Temperature"},{"value":37.9,"health":"normal","item":"dev/lon/02DE137A0600/if/device/0/nv_Humidity"},{"value":0,"health":"normal","item":"dev/lon/02DE137A0600/if/device/0/nv_Lights"},{"value":312,"health":"normal","item":"dev/lon/02DE137A0600/if/device/0/nv_Light_FTC"}]}
+{"method":"PUT","url":"/~/30/fb/VirtualFb/dp/nv_Humidity/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.660Z","value":37.36},"status":200}
+{"method":"PUT","url":"/~/20/fb/VirtualFb/dp/nv_TimeOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.677Z","value":"00 29 03 14 19 04"},"status":200}
+{"result":[{"value":"00 00 00 00 00 00 00 00 00 00 FF 00 00 01 00 00 00 40 65 00","health":"normal","item":"dev/lon/002321640400/if/device/0/nv_LightOutInfo"},{"value":"00 00 00","health":"normal","item":"dev/lon/002321640400/if/device/0/nv_LightOverride"},{"value":"03 D1 0B 05 18 02","health":"normal","item":"dev/lon/002321640400/if/device/0/nv_TimeOutInfo"}]}
+{"method":"PUT","url":"/~/22/fb/VirtualFb/dp/nv_Temperature/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.691Z","value":69.52},"status":200}
+{"method":"PUT","url":"/~/30/fb/VirtualFb/dp/nv_Lights/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.695Z","value":0},"status":200}
+{"value":37.36,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:21.660Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/029417460500/if/device/0","health":"normal","message":"nv_Humidity/value","data":37.36,"source":"lon"}
+{"value":"00 29 03 14 19 04","health":"normal"}
+{"value":69.52,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:21.691Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/02DF137A0600/if/device/0","health":"normal","message":"nv_Temperature/value","data":69.52,"source":"lon"}
+{"value":0,"health":"normal"}
+{"method":"PUT","url":"/~/22/fb/VirtualFb/dp/nv_Humidity/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.714Z","value":38.88},"status":200}
+{"method":"PUT","url":"/~/30/fb/VirtualFb/dp/nv_Light_FTC/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.723Z","value":280},"status":200}
+{"method":"PUT","url":"/~/23/fb/VirtualFb/dp/nv_Temperature/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.742Z","value":70.04},"status":200}
+{"method":"PUT","url":"/~/22/fb/VirtualFb/dp/nv_Lights/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.742Z","value":0},"status":200}
+{"result":[{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal","item":"dev/lon/002325451500/if/device/0/nv_LightOutInfo"},{"value":"00 00 00","health":"normal","item":"dev/lon/002325451500/if/device/0/nv_LightOverride"},{"value":"00 29 03 14 19 04","health":"normal","item":"dev/lon/002325451500/if/device/0/nv_TimeOutInfo"}]}
+{"value":38.88,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:21.714Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/02DF137A0600/if/device/0","health":"normal","message":"nv_Humidity/value","data":38.88,"source":"lon"}
+{"value":280,"health":"normal"}
+{"method":"PUT","url":"/~/23/fb/VirtualFb/dp/nv_Humidity/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.765Z","value":37.98},"status":200}
+{"value":70.04,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:21.742Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/02C3CCB00400/if/device/0","health":"normal","message":"nv_Temperature/value","data":70.04,"source":"lon"}
+{"method":"PUT","url":"/~/22/fb/VirtualFb/dp/nv_Light_FTC/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.771Z","value":95},"status":200}
+{"value":0,"health":"normal"}
+{"method":"PUT","url":"/~/24/fb/VirtualFb/dp/nv_LightOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.779Z","value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00"},"status":200}
+{"value":37.98,"health":"normal"}
+{"value":95,"health":"normal"}
+{"method":"PUT","url":"/~/23/fb/VirtualFb/dp/nv_Lights/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.792Z","value":0},"status":200}
+{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal"}
+{"value":0,"health":"normal"}
+{"method":"PUT","url":"/~/24/fb/VirtualFb/dp/nv_LightOverride/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.801Z","value":"00 00 00"},"status":200}
+{"result":[{"value":69.62,"health":"normal","item":"dev/lon/029417460500/if/device/0/nv_Temperature"},{"value":37.36,"health":"normal","item":"dev/lon/029417460500/if/device/0/nv_Humidity"},{"value":0,"health":"normal","item":"dev/lon/029417460500/if/device/0/nv_Lights"},{"value":280,"health":"normal","item":"dev/lon/029417460500/if/device/0/nv_Light_FTC"}]}
+{"method":"PUT","url":"/~/25/fb/VirtualFb/dp/nv_Temperature/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.805Z","value":67.95},"status":200}
+{"result":[{"value":69.52,"health":"normal","item":"dev/lon/02DF137A0600/if/device/0/nv_Temperature"},{"value":38.88,"health":"normal","item":"dev/lon/02DF137A0600/if/device/0/nv_Humidity"},{"value":0,"health":"normal","item":"dev/lon/02DF137A0600/if/device/0/nv_Lights"},{"value":95,"health":"normal","item":"dev/lon/02DF137A0600/if/device/0/nv_Light_FTC"}]}
+{"method":"PUT","url":"/~/23/fb/VirtualFb/dp/nv_Light_FTC/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.822Z","value":235},"status":200}
+{"method":"PUT","url":"/~/24/fb/VirtualFb/dp/nv_TimeOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.828Z","value":"00 29 03 14 19 04"},"status":200}
+{"value":"00 00 00","health":"normal"}
+{"method":"PUT","url":"/~/25/fb/VirtualFb/dp/nv_Humidity/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.845Z","value":43.86},"status":200}
+{"value":67.95,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:21.805Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/02D3CAB00400/if/device/0","health":"normal","message":"nv_Temperature/value","data":67.95,"source":"lon"}
+{"value":235,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:21.822Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/02C3CCB00400/if/device/0","health":"normal","message":"nv_Light_FTC/value","data":235,"source":"lon"}
+{"value":"00 29 03 14 19 04","health":"normal"}
+{"value":43.86,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:21.845Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/02D3CAB00400/if/device/0","health":"normal","message":"nv_Humidity/value","data":43.86,"source":"lon"}
+{"method":"PUT","url":"/~/26/fb/VirtualFb/dp/nv_LightOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.862Z","value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00"},"status":200}
+{"method":"PUT","url":"/~/25/fb/VirtualFb/dp/nv_Lights/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.866Z","value":0},"status":200}
+{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal"}
+{"value":0,"health":"normal"}
+
+
+{"result":[{"value":70.04,"health":"normal","item":"dev/lon/02C3CCB00400/if/device/0/nv_Temperature"},{"value":37.98,"health":"normal","item":"dev/lon/02C3CCB00400/if/device/0/nv_Humidity"},{"value":0,"health":"normal","item":"dev/lon/02C3CCB00400/if/device/0/nv_Lights"},{"value":235,"health":"normal","item":"dev/lon/02C3CCB00400/if/device/0/nv_Light_FTC"}]}
+{"result":[{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal","item":"dev/lon/002325448400/if/device/0/nv_LightOutInfo"},{"value":"00 00 00","health":"normal","item":"dev/lon/002325448400/if/device/0/nv_LightOverride"},{"value":"00 29 03 14 19 04","health":"normal","item":"dev/lon/002325448400/if/device/0/nv_TimeOutInfo"}]}
+{"method":"PUT","url":"/~/25/fb/VirtualFb/dp/nv_Light_FTC/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.888Z","value":299},"status":200}
+{"method":"PUT","url":"/~/26/fb/VirtualFb/dp/nv_LightOverride/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.894Z","value":"00 00 00"},"status":200}
+{"method":"PUT","url":"/~/27/fb/VirtualFb/dp/nv_LightOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.914Z","value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00"},"status":200}
+{"value":299,"health":"normal"}
+{"method":"PUT","url":"/~/26/fb/VirtualFb/dp/nv_TimeOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.930Z","value":"00 29 03 14 19 04"},"status":200}
+{"value":"00 00 00","health":"normal"}
+{"method":"PUT","url":"/~/27/fb/VirtualFb/dp/nv_LightOverride/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.933Z","value":"00 00 00"},"status":200}
+{"result":[{"value":67.95,"health":"normal","item":"dev/lon/02D3CAB00400/if/device/0/nv_Temperature"},{"value":43.86,"health":"normal","item":"dev/lon/02D3CAB00400/if/device/0/nv_Humidity"},{"value":0,"health":"normal","item":"dev/lon/02D3CAB00400/if/device/0/nv_Lights"},{"value":299,"health":"normal","item":"dev/lon/02D3CAB00400/if/device/0/nv_Light_FTC"}]}
+{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal"}
+{"value":"00 29 03 14 19 04","health":"normal"}
+{"result":[{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal","item":"dev/lon/002325449900/if/device/0/nv_LightOutInfo"},{"value":"00 00 00","health":"normal","item":"dev/lon/002325449900/if/device/0/nv_LightOverride"},{"value":"00 29 03 14 19 04","health":"normal","item":"dev/lon/002325449900/if/device/0/nv_TimeOutInfo"}]}
+{"method":"PUT","url":"/~/28/fb/VirtualFb/dp/nv_Temperature/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.951Z","value":70.64},"status":200}
+{"method":"PUT","url":"/~/27/fb/VirtualFb/dp/nv_TimeOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.964Z","value":"00 29 03 14 19 04"},"status":200}
+{"method":"PUT","url":"/~/28/fb/VirtualFb/dp/nv_Humidity/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.970Z","value":36.24},"status":200}
+{"value":"00 00 00","health":"normal"}
+{"value":70.64,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:21.951Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/0260147A0600/if/device/0","health":"normal","message":"nv_Temperature/value","data":70.64,"source":"lon"}
+{"value":"00 29 03 14 19 04","health":"normal"}
+{"method":"PUT","url":"/~/28/fb/VirtualFb/dp/nv_Lights/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:21.992Z","value":0},"status":200}
+{"value":36.24,"health":"normal"}
+{"value":0,"health":"normal"}
+{"result":[{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal","item":"dev/lon/002325449800/if/device/0/nv_LightOutInfo"},{"value":"00 00 00","health":"normal","item":"dev/lon/002325449800/if/device/0/nv_LightOverride"},{"value":"00 29 03 14 19 04","health":"normal","item":"dev/lon/002325449800/if/device/0/nv_TimeOutInfo"}]}
+{"method":"PUT","url":"/~/28/fb/VirtualFb/dp/nv_Light_FTC/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:22.016Z","value":347},"status":200}
+{"value":347,"health":"normal"}
+{"result":[{"value":70.64,"health":"normal","item":"dev/lon/0260147A0600/if/device/0/nv_Temperature"},{"value":36.24,"health":"normal","item":"dev/lon/0260147A0600/if/device/0/nv_Humidity"},{"value":0,"health":"normal","item":"dev/lon/0260147A0600/if/device/0/nv_Lights"},{"value":347,"health":"normal","item":"dev/lon/0260147A0600/if/device/0/nv_Light_FTC"}]}
+[{"index":4,"id":"8990865597763018903","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":5,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622041658,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":10,"id":"7626139436874053720","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":3,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622041658,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":0,"id":"7215386233101516180","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":1,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622041658,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":9,"id":"7043197164464151664","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":2,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622041658,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":7,"id":"2965162143653330756","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":8,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622041658,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":2,"id":"1080262314076147726","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":3,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622041658,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":11,"id":"6577405104543876253","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":4,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622041658,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":1,"id":"6185985954753160980","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":2,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622041658,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":8,"id":"5590707937656393508","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":1,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622041658,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":3,"id":"5225847932378870087","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":4,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622041658,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":6,"id":"8181820087050935053","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":7,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622041658,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":5,"id":"2905444859910564397","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":6,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622041658,"couplerId":1,"type":"DIGITAL_OUTPUT"}]
+{"label":"started","value":100}
+[{"index":4,"id":"8990865597763018903","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":5,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622045966,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":10,"id":"7626139436874053720","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":3,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622045966,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":0,"id":"7215386233101516180","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":1,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622045966,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":9,"id":"7043197164464151664","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":2,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622045966,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":7,"id":"2965162143653330756","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":8,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622045966,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":2,"id":"1080262314076147726","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":3,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622045966,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":11,"id":"6577405104543876253","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":4,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622045966,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":1,"id":"6185985954753160980","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":2,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622045966,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":8,"id":"5590707937656393508","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":1,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622045966,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":3,"id":"5225847932378870087","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":4,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622045966,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":6,"id":"8181820087050935053","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":7,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622045966,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":5,"id":"2905444859910564397","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":6,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622045966,"couplerId":1,"type":"DIGITAL_OUTPUT"}]
+0.2565036420395421
+0.10830000000000001
+540536832
+0.7066666666666667
+631103488
+57.906
+{"method":"PUT","url":"/~/-4/fb/configServerScanner/dp/readsPerSec/dat","body":{"status":{},"lastUpdate":"","value":0.0},"status":200}
+[{"index":4,"id":"8990865597763018903","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":5,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622051705,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":10,"id":"7626139436874053720","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":3,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622051705,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":0,"id":"7215386233101516180","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":1,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622051705,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":9,"id":"7043197164464151664","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":2,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622051705,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":7,"id":"2965162143653330756","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":8,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622051705,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":2,"id":"1080262314076147726","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":3,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622051705,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":11,"id":"6577405104543876253","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":4,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622051705,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":1,"id":"6185985954753160980","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":2,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622051705,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":8,"id":"5590707937656393508","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":1,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622051705,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":3,"id":"5225847932378870087","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":4,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622051705,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":6,"id":"8181820087050935053","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":7,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622051705,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":5,"id":"2905444859910564397","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":6,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622051705,"couplerId":1,"type":"DIGITAL_OUTPUT"}]
+{"response":"0254BF020700/ondemand/repsonse","item":["dev/lon/0254BF020700/if/device/0/nv_PressureState","dev/lon/0254BF020700/if/device/0/nv_FlowState","dev/lon/0254BF020700/if/device/0/nv_HPSolState","dev/lon/0254BF020700/if/device/0/nv_Pressure"],"timeout":10}
+{"response":"0244BF020700/ondemand/repsonse","item":["dev/lon/0244BF020700/if/device/0/nv_PressureState","dev/lon/0244BF020700/if/device/0/nv_FlowState","dev/lon/0244BF020700/if/device/0/nv_HPSolState","dev/lon/0244BF020700/if/device/0/nv_Pressure"],"timeout":10}
+{"response":"025967EF1200/ondemand/repsonse","item":["dev/lon/025967EF1200/if/device/0/nv_PressureState","dev/lon/025967EF1200/if/device/0/nv_FlowState","dev/lon/025967EF1200/if/device/0/nv_HPSolState","dev/lon/025967EF1200/if/device/0/nv_Pressure"],"timeout":10}
+{"response":"025A5BE10500/ondemand/repsonse","item":["dev/lon/025A5BE10500/if/device/0/nv_Temperature","dev/lon/025A5BE10500/if/device/0/nv_Humidity","dev/lon/025A5BE10500/if/device/0/nv_Lights","dev/lon/025A5BE10500/if/device/0/nv_Light_FTC"],"timeout":10}
+{"response":"02626DE10500/ondemand/repsonse","item":["dev/lon/02626DE10500/if/device/0/nv_Temperature","dev/lon/02626DE10500/if/device/0/nv_Humidity","dev/lon/02626DE10500/if/device/0/nv_Lights","dev/lon/02626DE10500/if/device/0/nv_Light_FTC"],"timeout":10}
+
+{"response":"002321640300/ondemand/repsonse","item":["dev/lon/002321640300/if/device/0/nv_LightOutInfo","dev/lon/002321640300/if/device/0/nv_LightOverride","dev/lon/002321640300/if/device/0/nv_TimeOutInfo"],"timeout":10}
+{"response":"002320961700/ondemand/repsonse","item":["dev/lon/002320961700/if/device/0/nv_LightOutInfo","dev/lon/002320961700/if/device/0/nv_LightOverride","dev/lon/002320961700/if/device/0/nv_TimeOutInfo"],"timeout":10}
+{"response":"002325448200/ondemand/repsonse","item":["dev/lon/002325448200/if/device/0/nv_LightOutInfo","dev/lon/002325448200/if/device/0/nv_LightOverride","dev/lon/002325448200/if/device/0/nv_TimeOutInfo"],"timeout":10}
+{"response":"02DE137A0600/ondemand/repsonse","item":["dev/lon/02DE137A0600/if/device/0/nv_Temperature","dev/lon/02DE137A0600/if/device/0/nv_Humidity","dev/lon/02DE137A0600/if/device/0/nv_Lights","dev/lon/02DE137A0600/if/device/0/nv_Light_FTC"],"timeout":10}
+{"response":"002321640400/ondemand/repsonse","item":["dev/lon/002321640400/if/device/0/nv_LightOutInfo","dev/lon/002321640400/if/device/0/nv_LightOverride","dev/lon/002321640400/if/device/0/nv_TimeOutInfo"],"timeout":10}
+{"response":"002325451500/ondemand/repsonse","item":["dev/lon/002325451500/if/device/0/nv_LightOutInfo","dev/lon/002325451500/if/device/0/nv_LightOverride","dev/lon/002325451500/if/device/0/nv_TimeOutInfo"],"timeout":10}
+{"response":"029417460500/ondemand/repsonse","item":["dev/lon/029417460500/if/device/0/nv_Temperature","dev/lon/029417460500/if/device/0/nv_Humidity","dev/lon/029417460500/if/device/0/nv_Lights","dev/lon/029417460500/if/device/0/nv_Light_FTC"],"timeout":10}
+{"response":"02DF137A0600/ondemand/repsonse","item":["dev/lon/02DF137A0600/if/device/0/nv_Temperature","dev/lon/02DF137A0600/if/device/0/nv_Humidity","dev/lon/02DF137A0600/if/device/0/nv_Lights","dev/lon/02DF137A0600/if/device/0/nv_Light_FTC"],"timeout":10}
+{"response":"02C3CCB00400/ondemand/repsonse","item":["dev/lon/02C3CCB00400/if/device/0/nv_Temperature","dev/lon/02C3CCB00400/if/device/0/nv_Humidity","dev/lon/02C3CCB00400/if/device/0/nv_Lights","dev/lon/02C3CCB00400/if/device/0/nv_Light_FTC"],"timeout":10}
+{"response":"002325448400/ondemand/repsonse","item":["dev/lon/002325448400/if/device/0/nv_LightOutInfo","dev/lon/002325448400/if/device/0/nv_LightOverride","dev/lon/002325448400/if/device/0/nv_TimeOutInfo"],"timeout":10}
+{"response":"02D3CAB00400/ondemand/repsonse","item":["dev/lon/02D3CAB00400/if/device/0/nv_Temperature","dev/lon/02D3CAB00400/if/device/0/nv_Humidity","dev/lon/02D3CAB00400/if/device/0/nv_Lights","dev/lon/02D3CAB00400/if/device/0/nv_Light_FTC"],"timeout":10}
+{"response":"002325449900/ondemand/repsonse","item":["dev/lon/002325449900/if/device/0/nv_LightOutInfo","dev/lon/002325449900/if/device/0/nv_LightOverride","dev/lon/002325449900/if/device/0/nv_TimeOutInfo"],"timeout":10}
+{"response":"002325449800/ondemand/repsonse","item":["dev/lon/002325449800/if/device/0/nv_LightOutInfo","dev/lon/002325449800/if/device/0/nv_LightOverride","dev/lon/002325449800/if/device/0/nv_TimeOutInfo"],"timeout":10}
+{"response":"0260147A0600/ondemand/repsonse","item":["dev/lon/0260147A0600/if/device/0/nv_Temperature","dev/lon/0260147A0600/if/device/0/nv_Humidity","dev/lon/0260147A0600/if/device/0/nv_Lights","dev/lon/0260147A0600/if/device/0/nv_Light_FTC"],"timeout":10}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/0254BF020700/if/device/0/nv_PressureState/fac51e99853d1d8e0a839359de81181d"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/0254BF020700/if/device/0/nv_FlowState/fac51e99853d1d8e0a839359de81181d"}
+{"method":"GET"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/0254BF020700/if/device/0/nv_HPSolState/fac51e99853d1d8e0a839359de81181d"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/0254BF020700/if/device/0/nv_Pressure/fac51e99853d1d8e0a839359de81181d"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/0244BF020700/if/device/0/nv_PressureState/1c8f2d7cec927baab0b9414af4a3fb7c"}
+{"method":"GET"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/0244BF020700/if/device/0/nv_FlowState/1c8f2d7cec927baab0b9414af4a3fb7c"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/0244BF020700/if/device/0/nv_HPSolState/1c8f2d7cec927baab0b9414af4a3fb7c"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/0244BF020700/if/device/0/nv_Pressure/1c8f2d7cec927baab0b9414af4a3fb7c"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/025967EF1200/if/device/0/nv_PressureState/a71387a7990d70587741b8626df3b1e2"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/025967EF1200/if/device/0/nv_FlowState/a71387a7990d70587741b8626df3b1e2"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/025967EF1200/if/device/0/nv_HPSolState/a71387a7990d70587741b8626df3b1e2"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/025967EF1200/if/device/0/nv_Pressure/a71387a7990d70587741b8626df3b1e2"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/025A5BE10500/if/device/0/nv_Temperature/99adda2507d92319024bdc0b5b6e3d6b"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/025A5BE10500/if/device/0/nv_Humidity/99adda2507d92319024bdc0b5b6e3d6b"}
+{"method":"GET"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/025A5BE10500/if/device/0/nv_Lights/99adda2507d92319024bdc0b5b6e3d6b"}
+{"method":"GET"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/025A5BE10500/if/device/0/nv_Light_FTC/99adda2507d92319024bdc0b5b6e3d6b"}
+{"method":"GET"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02626DE10500/if/device/0/nv_Temperature/4ce7128f662938f8a4f7513ddc9c312a"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02626DE10500/if/device/0/nv_Humidity/4ce7128f662938f8a4f7513ddc9c312a"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02626DE10500/if/device/0/nv_Lights/4ce7128f662938f8a4f7513ddc9c312a"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02626DE10500/if/device/0/nv_Light_FTC/4ce7128f662938f8a4f7513ddc9c312a"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002321640300/if/device/0/nv_LightOutInfo/2222ce101239c78aa41ea0f397ea03d6"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002321640300/if/device/0/nv_LightOverride/2222ce101239c78aa41ea0f397ea03d6"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002321640300/if/device/0/nv_TimeOutInfo/2222ce101239c78aa41ea0f397ea03d6"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002320961700/if/device/0/nv_LightOutInfo/f0217898d752d859d391f967e1393bc6"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002320961700/if/device/0/nv_LightOverride/f0217898d752d859d391f967e1393bc6"}
+{"method":"GET"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002320961700/if/device/0/nv_TimeOutInfo/f0217898d752d859d391f967e1393bc6"}
+{"method":"GET"}
+{"method":"PUT","url":"/~/10/fb/VirtualFb/dp/nv_PressureState/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.034Z","value":1},"status":200}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325448200/if/device/0/nv_LightOutInfo/1c13d5a06b2a296fbda9b5312d859476"}
+{"method":"GET"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325448200/if/device/0/nv_LightOverride/1c13d5a06b2a296fbda9b5312d859476"}
+{"method":"GET"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325448200/if/device/0/nv_TimeOutInfo/1c13d5a06b2a296fbda9b5312d859476"}
+{"method":"GET"}
+{"method":"PUT","url":"/~/11/fb/VirtualFb/dp/nv_PressureState/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.051Z","value":1},"status":200}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02DE137A0600/if/device/0/nv_Temperature/2652a4ee7edc9a986614dd109ca9af89"}
+{"method":"GET"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02DE137A0600/if/device/0/nv_Humidity/2652a4ee7edc9a986614dd109ca9af89"}
+{"method":"GET"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02DE137A0600/if/device/0/nv_Lights/2652a4ee7edc9a986614dd109ca9af89"}
+{"method":"GET"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02DE137A0600/if/device/0/nv_Light_FTC/2652a4ee7edc9a986614dd109ca9af89"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002321640400/if/device/0/nv_LightOutInfo/b57ef16c05070d64f85d268fdc14807a"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002321640400/if/device/0/nv_LightOverride/b57ef16c05070d64f85d268fdc14807a"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002321640400/if/device/0/nv_TimeOutInfo/b57ef16c05070d64f85d268fdc14807a"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325451500/if/device/0/nv_LightOutInfo/8a44edb9c600343ea1271bdc20509e79"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325451500/if/device/0/nv_LightOverride/8a44edb9c600343ea1271bdc20509e79"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325451500/if/device/0/nv_TimeOutInfo/8a44edb9c600343ea1271bdc20509e79"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/029417460500/if/device/0/nv_Temperature/f9bd023a6dd750f5d8975f584845c175"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/029417460500/if/device/0/nv_Humidity/f9bd023a6dd750f5d8975f584845c175"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/029417460500/if/device/0/nv_Lights/f9bd023a6dd750f5d8975f584845c175"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/029417460500/if/device/0/nv_Light_FTC/f9bd023a6dd750f5d8975f584845c175"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02DF137A0600/if/device/0/nv_Temperature/37c1224b20298e5b962dae0778ef158d"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02DF137A0600/if/device/0/nv_Humidity/37c1224b20298e5b962dae0778ef158d"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02DF137A0600/if/device/0/nv_Lights/37c1224b20298e5b962dae0778ef158d"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02DF137A0600/if/device/0/nv_Light_FTC/37c1224b20298e5b962dae0778ef158d"}
+
+
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02C3CCB00400/if/device/0/nv_Temperature/2f34389719b1d483823ba0e5b62766db"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02C3CCB00400/if/device/0/nv_Humidity/2f34389719b1d483823ba0e5b62766db"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02C3CCB00400/if/device/0/nv_Lights/2f34389719b1d483823ba0e5b62766db"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02C3CCB00400/if/device/0/nv_Light_FTC/2f34389719b1d483823ba0e5b62766db"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325448400/if/device/0/nv_LightOutInfo/a514aa39339019fd03ce6accca6db6fa"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325448400/if/device/0/nv_LightOverride/a514aa39339019fd03ce6accca6db6fa"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325448400/if/device/0/nv_TimeOutInfo/a514aa39339019fd03ce6accca6db6fa"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02D3CAB00400/if/device/0/nv_Temperature/5fb8c07f7051ba523376eed4be88d8b5"}
+{"method":"GET"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02D3CAB00400/if/device/0/nv_Humidity/5fb8c07f7051ba523376eed4be88d8b5"}
+{"method":"GET"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02D3CAB00400/if/device/0/nv_Lights/5fb8c07f7051ba523376eed4be88d8b5"}
+{"method":"GET"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02D3CAB00400/if/device/0/nv_Light_FTC/5fb8c07f7051ba523376eed4be88d8b5"}
+{"method":"GET"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325449900/if/device/0/nv_LightOutInfo/45d4e32f3e3448bf57a9a967776c792e"}
+{"method":"GET"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325449900/if/device/0/nv_LightOverride/45d4e32f3e3448bf57a9a967776c792e"}
+{"method":"GET"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325449900/if/device/0/nv_TimeOutInfo/45d4e32f3e3448bf57a9a967776c792e"}
+{"method":"GET"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325449800/if/device/0/nv_LightOutInfo/3a8b0889dc0395bdf1affde67f7ed249"}
+{"method":"GET"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325449800/if/device/0/nv_LightOverride/3a8b0889dc0395bdf1affde67f7ed249"}
+{"method":"GET"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325449800/if/device/0/nv_TimeOutInfo/3a8b0889dc0395bdf1affde67f7ed249"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/0260147A0600/if/device/0/nv_Temperature/8c2ba122b70b781a417c213df3f79b7f"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/0260147A0600/if/device/0/nv_Humidity/8c2ba122b70b781a417c213df3f79b7f"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/0260147A0600/if/device/0/nv_Lights/8c2ba122b70b781a417c213df3f79b7f"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/0260147A0600/if/device/0/nv_Light_FTC/8c2ba122b70b781a417c213df3f79b7f"}
+{"value":1,"health":"normal"}
+{"value":1,"health":"normal"}
+{"method":"PUT","url":"/~/10/fb/VirtualFb/dp/nv_FlowState/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.097Z","value":0},"status":200}
+{"method":"PUT","url":"/~/11/fb/VirtualFb/dp/nv_FlowState/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.118Z","value":0},"status":200}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"PUT","url":"/~/10/fb/VirtualFb/dp/nv_HPSolState/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.185Z","value":0},"status":200}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"value":0,"health":"normal"}
+{"value":0,"health":"normal"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"value":0,"health":"normal"}
+{"method":"PUT","url":"/~/11/fb/VirtualFb/dp/nv_HPSolState/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.207Z","value":0},"status":200}
+{"value":0,"health":"normal"}
+{"method":"PUT","url":"/~/10/fb/VirtualFb/dp/nv_Pressure/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.266Z","value":4.835},"status":200}
+{"value":4.835,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:36.266Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/0254BF020700/if/device/0","health":"normal","message":"nv_Pressure/value","data":4.835,"source":"lon"}
+{"method":"PUT","url":"/~/11/fb/VirtualFb/dp/nv_Pressure/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.271Z","value":4.187},"status":200}
+{"value":4.187,"health":"normal"}
+{"method":"PUT","url":"/~/13/fb/VirtualFb/dp/nv_Temperature/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.297Z","value":71.97},"status":200}
+{"result":[{"value":1,"health":"normal","item":"dev/lon/0254BF020700/if/device/0/nv_PressureState"},{"value":0,"health":"normal","item":"dev/lon/0254BF020700/if/device/0/nv_FlowState"},{"value":0,"health":"normal","item":"dev/lon/0254BF020700/if/device/0/nv_HPSolState"},{"value":4.835,"health":"normal","item":"dev/lon/0254BF020700/if/device/0/nv_Pressure"}]}
+{"method":"PUT","url":"/~/13/fb/VirtualFb/dp/nv_Humidity/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.315Z","value":34.33},"status":200}
+{"result":[{"value":1,"health":"normal","item":"dev/lon/0244BF020700/if/device/0/nv_PressureState"},{"value":0,"health":"normal","item":"dev/lon/0244BF020700/if/device/0/nv_FlowState"},{"value":0,"health":"normal","item":"dev/lon/0244BF020700/if/device/0/nv_HPSolState"},{"value":4.187,"health":"normal","item":"dev/lon/0244BF020700/if/device/0/nv_Pressure"}]}
+{"value":71.97,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:36.297Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/025A5BE10500/if/device/0","health":"normal","message":"nv_Temperature/value","data":71.97,"source":"lon"}
+{"value":34.33,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:36.315Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/025A5BE10500/if/device/0","health":"normal","message":"nv_Humidity/value","data":34.33,"source":"lon"}
+{"method":"PUT","url":"/~/13/fb/VirtualFb/dp/nv_Lights/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.335Z","value":0},"status":200}
+{"value":0,"health":"normal"}
+{"method":"PUT","url":"/~/12/fb/VirtualFb/dp/nv_PressureState/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.343Z","value":1},"status":200}
+{"method":"PUT","url":"/~/13/fb/VirtualFb/dp/nv_Light_FTC/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.357Z","value":103},"status":200}
+{"method":"PUT","url":"/~/14/fb/VirtualFb/dp/nv_Temperature/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.379Z","value":73.22},"status":200}
+{"value":1,"health":"normal"}
+{"value":103,"health":"normal"}
+{"value":73.22,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:36.379Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/02626DE10500/if/device/0","health":"normal","message":"nv_Temperature/value","data":73.22,"source":"lon"}
+{"method":"PUT","url":"/~/14/fb/VirtualFb/dp/nv_Humidity/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.397Z","value":34.23},"status":200}
+{"value":34.23,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:36.397Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/02626DE10500/if/device/0","health":"normal","message":"nv_Humidity/value","data":34.23,"source":"lon"}
+{"result":[{"value":71.97,"health":"normal","item":"dev/lon/025A5BE10500/if/device/0/nv_Temperature"},{"value":34.33,"health":"normal","item":"dev/lon/025A5BE10500/if/device/0/nv_Humidity"},{"value":0,"health":"normal","item":"dev/lon/025A5BE10500/if/device/0/nv_Lights"},{"value":103,"health":"normal","item":"dev/lon/025A5BE10500/if/device/0/nv_Light_FTC"}]}
+{"method":"PUT","url":"/~/14/fb/VirtualFb/dp/nv_Lights/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.415Z","value":0},"status":200}
+{"method":"PUT","url":"/~/12/fb/VirtualFb/dp/nv_FlowState/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.431Z","value":0},"status":200}
+{"method":"PUT","url":"/~/14/fb/VirtualFb/dp/nv_Light_FTC/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.433Z","value":2},"status":200}
+{"value":0,"health":"normal"}
+{"value":0,"health":"normal"}
+{"value":2,"health":"normal"}
+{"method":"PUT","url":"/~/15/fb/VirtualFb/dp/nv_LightOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.460Z","value":"00 00 00 00 00 00 00 00 00 00 FF 01 00 01 00 00 00 40 00 00"},"status":200}
+{"method":"PUT","url":"/~/15/fb/VirtualFb/dp/nv_LightOverride/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.484Z","value":"00 02 14"},"status":200}
+{"value":"00 00 00 00 00 00 00 00 00 00 FF 01 00 01 00 00 00 40 00 00","health":"normal"}
+{"result":[{"value":73.22,"health":"normal","item":"dev/lon/02626DE10500/if/device/0/nv_Temperature"},{"value":34.23,"health":"normal","item":"dev/lon/02626DE10500/if/device/0/nv_Humidity"},{"value":0,"health":"normal","item":"dev/lon/02626DE10500/if/device/0/nv_Lights"},{"value":2,"health":"normal","item":"dev/lon/02626DE10500/if/device/0/nv_Light_FTC"}]}
+{"value":"00 02 14","health":"normal"}
+{"method":"PUT","url":"/~/12/fb/VirtualFb/dp/nv_HPSolState/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.511Z","value":0},"status":200}
+{"method":"PUT","url":"/~/15/fb/VirtualFb/dp/nv_TimeOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.517Z","value":"03 E0 0B 05 18 02"},"status":200}
+{"value":0,"health":"normal"}
+{"value":"03 E0 0B 05 18 02","health":"normal"}
+{"method":"PUT","url":"/~/16/fb/VirtualFb/dp/nv_LightOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.546Z","value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00"},"status":200}
+{"result":[{"value":"00 00 00 00 00 00 00 00 00 00 FF 01 00 01 00 00 00 40 00 00","health":"normal","item":"dev/lon/002321640300/if/device/0/nv_LightOutInfo"},{"value":"00 02 14","health":"normal","item":"dev/lon/002321640300/if/device/0/nv_LightOverride"},{"value":"03 E0 0B 05 18 02","health":"normal","item":"dev/lon/002321640300/if/device/0/nv_TimeOutInfo"}]}
+{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal"}
+{"method":"PUT","url":"/~/16/fb/VirtualFb/dp/nv_LightOverride/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.567Z","value":"00 00 00"},"status":200}
+{"value":"00 00 00","health":"normal"}
+{"method":"PUT","url":"/~/12/fb/VirtualFb/dp/nv_Pressure/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.596Z","value":4.44},"status":200}
+{"method":"PUT","url":"/~/16/fb/VirtualFb/dp/nv_TimeOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.600Z","value":"00 2A 03 14 19 04"},"status":200}
+{"value":4.44,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:36.596Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/025967EF1200/if/device/0","health":"normal","message":"nv_Pressure/value","data":4.44,"source":"lon"}
+{"value":"00 2A 03 14 19 04","health":"normal"}
+
+{"result":[{"value":1,"health":"normal","item":"dev/lon/025967EF1200/if/device/0/nv_PressureState"},{"value":0,"health":"normal","item":"dev/lon/025967EF1200/if/device/0/nv_FlowState"},{"value":0,"health":"normal","item":"dev/lon/025967EF1200/if/device/0/nv_HPSolState"},{"value":4.44,"health":"normal","item":"dev/lon/025967EF1200/if/device/0/nv_Pressure"}]}
+{"result":[{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal","item":"dev/lon/002320961700/if/device/0/nv_LightOutInfo"},{"value":"00 00 00","health":"normal","item":"dev/lon/002320961700/if/device/0/nv_LightOverride"},{"value":"00 2A 03 14 19 04","health":"normal","item":"dev/lon/002320961700/if/device/0/nv_TimeOutInfo"}]}
+{"method":"PUT","url":"/~/18/fb/VirtualFb/dp/nv_Temperature/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.627Z","value":72.38},"status":200}
+{"method":"PUT","url":"/~/17/fb/VirtualFb/dp/nv_LightOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.633Z","value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00"},"status":200}
+{"method":"PUT","url":"/~/18/fb/VirtualFb/dp/nv_Humidity/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.651Z","value":37.86},"status":200}
+{"value":72.38,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:36.627Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/02DE137A0600/if/device/0","health":"normal","message":"nv_Temperature/value","data":72.38,"source":"lon"}
+{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal"}
+{"method":"PUT","url":"/~/17/fb/VirtualFb/dp/nv_LightOverride/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.663Z","value":"00 00 00"},"status":200}
+{"value":37.86,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:36.651Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/02DE137A0600/if/device/0","health":"normal","message":"nv_Humidity/value","data":37.86,"source":"lon"}
+{"value":"00 00 00","health":"normal"}
+{"method":"PUT","url":"/~/18/fb/VirtualFb/dp/nv_Lights/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.676Z","value":0},"status":200}
+{"method":"PUT","url":"/~/17/fb/VirtualFb/dp/nv_TimeOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.691Z","value":"00 2A 03 14 19 04"},"status":200}
+{"method":"PUT","url":"/~/18/fb/VirtualFb/dp/nv_Light_FTC/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.698Z","value":312},"status":200}
+{"value":0,"health":"normal"}
+{"method":"PUT","url":"/~/20/fb/VirtualFb/dp/nv_LightOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.721Z","value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00"},"status":200}
+{"value":"00 2A 03 14 19 04","health":"normal"}
+{"value":312,"health":"normal"}
+{"method":"PUT","url":"/~/19/fb/VirtualFb/dp/nv_LightOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.730Z","value":"00 00 00 00 00 00 00 00 00 00 FF 00 00 01 00 00 00 40 65 00"},"status":200}
+{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal"}
+{"method":"PUT","url":"/~/20/fb/VirtualFb/dp/nv_LightOverride/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.740Z","value":"00 00 00"},"status":200}
+{"result":[{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal","item":"dev/lon/002325448200/if/device/0/nv_LightOutInfo"},{"value":"00 00 00","health":"normal","item":"dev/lon/002325448200/if/device/0/nv_LightOverride"},{"value":"00 2A 03 14 19 04","health":"normal","item":"dev/lon/002325448200/if/device/0/nv_TimeOutInfo"}]}
+{"result":[{"value":72.38,"health":"normal","item":"dev/lon/02DE137A0600/if/device/0/nv_Temperature"},{"value":37.86,"health":"normal","item":"dev/lon/02DE137A0600/if/device/0/nv_Humidity"},{"value":0,"health":"normal","item":"dev/lon/02DE137A0600/if/device/0/nv_Lights"},{"value":312,"health":"normal","item":"dev/lon/02DE137A0600/if/device/0/nv_Light_FTC"}]}
+{"method":"PUT","url":"/~/19/fb/VirtualFb/dp/nv_LightOverride/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.758Z","value":"00 00 00"},"status":200}
+{"method":"PUT","url":"/~/20/fb/VirtualFb/dp/nv_TimeOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.767Z","value":"00 29 03 14 19 04"},"status":200}
+{"value":"00 00 00 00 00 00 00 00 00 00 FF 00 00 01 00 00 00 40 65 00","health":"normal"}
+{"value":"00 00 00","health":"normal"}
+{"value":"00 00 00","health":"normal"}
+{"value":"00 29 03 14 19 04","health":"normal"}
+{"method":"PUT","url":"/~/19/fb/VirtualFb/dp/nv_TimeOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.788Z","value":"03 D1 0B 05 18 02"},"status":200}
+{"method":"PUT","url":"/~/30/fb/VirtualFb/dp/nv_Temperature/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.794Z","value":69.53},"status":200}
+{"value":"03 D1 0B 05 18 02","health":"normal"}
+{"value":69.53,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:36.794Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/029417460500/if/device/0","health":"normal","message":"nv_Temperature/value","data":69.53,"source":"lon"}
+[{"index":4,"id":"8990865597763018903","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":5,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622056009,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":10,"id":"7626139436874053720","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":3,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622056009,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":0,"id":"7215386233101516180","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":1,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622056009,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":9,"id":"7043197164464151664","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":2,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622056009,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":7,"id":"2965162143653330756","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":8,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622056009,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":2,"id":"1080262314076147726","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":3,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622056009,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":11,"id":"6577405104543876253","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":4,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622056009,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":1,"id":"6185985954753160980","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":2,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622056009,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":8,"id":"5590707937656393508","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":1,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622056009,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":3,"id":"5225847932378870087","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":4,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622056009,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":6,"id":"8181820087050935053","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":7,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622056009,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":5,"id":"2905444859910564397","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":6,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622056009,"couplerId":1,"type":"DIGITAL_OUTPUT"}]
+{"result":[{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal","item":"dev/lon/002325451500/if/device/0/nv_LightOutInfo"},{"value":"00 00 00","health":"normal","item":"dev/lon/002325451500/if/device/0/nv_LightOverride"},{"value":"00 29 03 14 19 04","health":"normal","item":"dev/lon/002325451500/if/device/0/nv_TimeOutInfo"}]}
+{"method":"PUT","url":"/~/22/fb/VirtualFb/dp/nv_Temperature/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.817Z","value":69.44},"status":200}
+{"method":"PUT","url":"/~/30/fb/VirtualFb/dp/nv_Humidity/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.822Z","value":37.4},"status":200}
+{"result":[{"value":"00 00 00 00 00 00 00 00 00 00 FF 00 00 01 00 00 00 40 65 00","health":"normal","item":"dev/lon/002321640400/if/device/0/nv_LightOutInfo"},{"value":"00 00 00","health":"normal","item":"dev/lon/002321640400/if/device/0/nv_LightOverride"},{"value":"03 D1 0B 05 18 02","health":"normal","item":"dev/lon/002321640400/if/device/0/nv_TimeOutInfo"}]}
+{"method":"PUT","url":"/~/22/fb/VirtualFb/dp/nv_Humidity/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.839Z","value":38.96},"status":200}
+{"method":"PUT","url":"/~/30/fb/VirtualFb/dp/nv_Lights/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.844Z","value":0},"status":200}
+{"value":69.44,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:36.817Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/02DF137A0600/if/device/0","health":"normal","message":"nv_Temperature/value","data":69.44,"source":"lon"}
+{"value":37.4,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:36.822Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/029417460500/if/device/0","health":"normal","message":"nv_Humidity/value","data":37.4,"source":"lon"}
+{"method":"PUT","url":"/~/22/fb/VirtualFb/dp/nv_Lights/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.864Z","value":0},"status":200}
+{"value":38.96,"health":"normal"}
+{"method":"PUT","url":"/~/30/fb/VirtualFb/dp/nv_Light_FTC/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.867Z","value":280},"status":200}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:36.839Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/02DF137A0600/if/device/0","health":"normal","message":"nv_Humidity/value","data":38.96,"source":"lon"}
+{"value":0,"health":"normal"}
+{"value":0,"health":"normal"}
+{"value":280,"health":"normal"}
+{"method":"PUT","url":"/~/22/fb/VirtualFb/dp/nv_Light_FTC/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.886Z","value":95},"status":200}
+{"method":"PUT","url":"/~/23/fb/VirtualFb/dp/nv_Temperature/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.890Z","value":70.05},"status":200}
+{"result":[{"value":69.53,"health":"normal","item":"dev/lon/029417460500/if/device/0/nv_Temperature"},{"value":37.4,"health":"normal","item":"dev/lon/029417460500/if/device/0/nv_Humidity"},{"value":0,"health":"normal","item":"dev/lon/029417460500/if/device/0/nv_Lights"},{"value":280,"health":"normal","item":"dev/lon/029417460500/if/device/0/nv_Light_FTC"}]}
+{"method":"PUT","url":"/~/23/fb/VirtualFb/dp/nv_Humidity/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.915Z","value":37.98},"status":200}
+{"method":"PUT","url":"/~/24/fb/VirtualFb/dp/nv_LightOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.925Z","value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00"},"status":200}
+{"value":95,"health":"normal"}
+{"value":70.05,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:36.890Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/02C3CCB00400/if/device/0","health":"normal","message":"nv_Temperature/value","data":70.05,"source":"lon"}
+{"method":"PUT","url":"/~/23/fb/VirtualFb/dp/nv_Lights/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.932Z","value":0},"status":200}
+{"value":37.98,"health":"normal"}
+{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal"}
+{"value":0,"health":"normal"}
+
+
+{"result":[{"value":69.44,"health":"normal","item":"dev/lon/02DF137A0600/if/device/0/nv_Temperature"},{"value":38.96,"health":"normal","item":"dev/lon/02DF137A0600/if/device/0/nv_Humidity"},{"value":0,"health":"normal","item":"dev/lon/02DF137A0600/if/device/0/nv_Lights"},{"value":95,"health":"normal","item":"dev/lon/02DF137A0600/if/device/0/nv_Light_FTC"}]}
+{"method":"PUT","url":"/~/24/fb/VirtualFb/dp/nv_LightOverride/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.948Z","value":"00 00 00"},"status":200}
+{"method":"PUT","url":"/~/23/fb/VirtualFb/dp/nv_Light_FTC/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.955Z","value":235},"status":200}
+{"method":"PUT","url":"/~/25/fb/VirtualFb/dp/nv_Temperature/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.974Z","value":67.95},"status":200}
+{"method":"PUT","url":"/~/24/fb/VirtualFb/dp/nv_TimeOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.979Z","value":"00 29 03 14 19 04"},"status":200}
+{"label":"started","value":100}
+{"value":"00 00 00","health":"normal"}
+{"value":235,"health":"normal"}
+{"value":67.95,"health":"normal"}
+{"value":"00 29 03 14 19 04","health":"normal"}
+{"result":[{"value":70.05,"health":"normal","item":"dev/lon/02C3CCB00400/if/device/0/nv_Temperature"},{"value":37.98,"health":"normal","item":"dev/lon/02C3CCB00400/if/device/0/nv_Humidity"},{"value":0,"health":"normal","item":"dev/lon/02C3CCB00400/if/device/0/nv_Lights"},{"value":235,"health":"normal","item":"dev/lon/02C3CCB00400/if/device/0/nv_Light_FTC"}]}
+{"method":"PUT","url":"/~/25/fb/VirtualFb/dp/nv_Humidity/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:36.995Z","value":43.86},"status":200}
+{"result":[{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal","item":"dev/lon/002325448400/if/device/0/nv_LightOutInfo"},{"value":"00 00 00","health":"normal","item":"dev/lon/002325448400/if/device/0/nv_LightOverride"},{"value":"00 29 03 14 19 04","health":"normal","item":"dev/lon/002325448400/if/device/0/nv_TimeOutInfo"}]}
+{"value":43.86,"health":"normal"}
+{"method":"PUT","url":"/~/25/fb/VirtualFb/dp/nv_Lights/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:37.013Z","value":0},"status":200}
+{"method":"PUT","url":"/~/26/fb/VirtualFb/dp/nv_LightOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:37.025Z","value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00"},"status":200}
+{"method":"PUT","url":"/~/25/fb/VirtualFb/dp/nv_Light_FTC/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:37.034Z","value":299},"status":200}
+{"value":0,"health":"normal"}
+{"method":"PUT","url":"/~/26/fb/VirtualFb/dp/nv_LightOverride/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:37.049Z","value":"00 00 00"},"status":200}
+{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal"}
+{"method":"PUT","url":"/~/27/fb/VirtualFb/dp/nv_LightOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:37.057Z","value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00"},"status":200}
+{"value":299,"health":"normal"}
+{"value":"00 00 00","health":"normal"}
+{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal"}
+{"result":[{"value":67.95,"health":"normal","item":"dev/lon/02D3CAB00400/if/device/0/nv_Temperature"},{"value":43.86,"health":"normal","item":"dev/lon/02D3CAB00400/if/device/0/nv_Humidity"},{"value":0,"health":"normal","item":"dev/lon/02D3CAB00400/if/device/0/nv_Lights"},{"value":299,"health":"normal","item":"dev/lon/02D3CAB00400/if/device/0/nv_Light_FTC"}]}
+{"method":"PUT","url":"/~/27/fb/VirtualFb/dp/nv_LightOverride/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:37.079Z","value":"00 00 00"},"status":200}
+{"value":"00 00 00","health":"normal"}
+{"method":"PUT","url":"/~/26/fb/VirtualFb/dp/nv_TimeOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:37.086Z","value":"00 29 03 14 19 04"},"status":200}
+{"method":"PUT","url":"/~/28/fb/VirtualFb/dp/nv_Temperature/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:37.107Z","value":70.69},"status":200}
+{"method":"PUT","url":"/~/27/fb/VirtualFb/dp/nv_TimeOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:37.111Z","value":"00 29 03 14 19 04"},"status":200}
+{"method":"PUT","url":"/~/28/fb/VirtualFb/dp/nv_Humidity/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:37.126Z","value":36.2},"status":200}
+{"value":"00 29 03 14 19 04","health":"normal"}
+{"value":70.69,"health":"normal"}
+{"result":[{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal","item":"dev/lon/002325449900/if/device/0/nv_LightOutInfo"},{"value":"00 00 00","health":"normal","item":"dev/lon/002325449900/if/device/0/nv_LightOverride"},{"value":"00 29 03 14 19 04","health":"normal","item":"dev/lon/002325449900/if/device/0/nv_TimeOutInfo"}]}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:37.107Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/0260147A0600/if/device/0","health":"normal","message":"nv_Temperature/value","data":70.69,"source":"lon"}
+{"method":"PUT","url":"/~/28/fb/VirtualFb/dp/nv_Lights/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:37.145Z","value":0},"status":200}
+{"value":"00 29 03 14 19 04","health":"normal"}
+{"value":36.2,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:37.126Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/0260147A0600/if/device/0","health":"normal","message":"nv_Humidity/value","data":36.2,"source":"lon"}
+{"value":0,"health":"normal"}
+{"method":"PUT","url":"/~/28/fb/VirtualFb/dp/nv_Light_FTC/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:37.167Z","value":347},"status":200}
+{"result":[{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal","item":"dev/lon/002325449800/if/device/0/nv_LightOutInfo"},{"value":"00 00 00","health":"normal","item":"dev/lon/002325449800/if/device/0/nv_LightOverride"},{"value":"00 29 03 14 19 04","health":"normal","item":"dev/lon/002325449800/if/device/0/nv_TimeOutInfo"}]}
+{"value":347,"health":"normal"}
+{"result":[{"value":70.69,"health":"normal","item":"dev/lon/0260147A0600/if/device/0/nv_Temperature"},{"value":36.2,"health":"normal","item":"dev/lon/0260147A0600/if/device/0/nv_Humidity"},{"value":0,"health":"normal","item":"dev/lon/0260147A0600/if/device/0/nv_Lights"},{"value":347,"health":"normal","item":"dev/lon/0260147A0600/if/device/0/nv_Light_FTC"}]}
+{"method":"GET"}
+{"method":"PUT","url":"/~/-2/meta","body":{"id":-2,"type":"/~/type/network/LON","label":"LON","eid":"17qja3r","tag":{},"status":{},"link":{},"lastUpdate":"","networkManagementService":"standalone","networkManagementMode":"onnet","address":{"domain":{"0":{"domainId":"29","domainLength":1}}}},"status":200}
+0.2088888888888889
+0.10830000000000001
+540352512
+0.7066666666666667
+631083008
+57.331
+[{"index":4,"id":"8990865597763018903","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":5,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622061746,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":10,"id":"7626139436874053720","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":3,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622061746,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":0,"id":"7215386233101516180","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":1,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622061746,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":9,"id":"7043197164464151664","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":2,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622061746,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":7,"id":"2965162143653330756","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":8,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622061746,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":2,"id":"1080262314076147726","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":3,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622061746,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":11,"id":"6577405104543876253","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":4,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622061746,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":1,"id":"6185985954753160980","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":2,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622061746,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":8,"id":"5590707937656393508","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":1,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622061746,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":3,"id":"5225847932378870087","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":4,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622061746,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":6,"id":"8181820087050935053","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":7,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622061746,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":5,"id":"2905444859910564397","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":6,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622061746,"couplerId":1,"type":"DIGITAL_OUTPUT"}]
+[{"index":4,"id":"8990865597763018903","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":5,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622066060,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":10,"id":"7626139436874053720","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":3,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622066060,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":0,"id":"7215386233101516180","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":1,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622066060,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":9,"id":"7043197164464151664","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":2,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622066060,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":7,"id":"2965162143653330756","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":8,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622066060,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":2,"id":"1080262314076147726","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":3,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622066060,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":11,"id":"6577405104543876253","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":4,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622066060,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":1,"id":"6185985954753160980","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":2,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622066060,"couplerId":1,"type":"DIGITAL_OUTPUT"}
+
+
+{"index":8,"id":"5590707937656393508","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":1,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622066060,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":3,"id":"5225847932378870087","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":4,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622066060,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":6,"id":"8181820087050935053","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":7,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622066060,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":5,"id":"2905444859910564397","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":6,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622066060,"couplerId":1,"type":"DIGITAL_OUTPUT"}]
+{"label":"started","value":100}
+0.19752130131680867
+0.10830000000000001
+540020736
+0.7066666666666667
+631083008
+57.906
+{"method":"PUT","url":"/~/-4/fb/scanner/dp/readsPerSec/dat","body":{"status":{},"lastUpdate":"","value":4.533409},"status":200}
+{"response":"0254BF020700/ondemand/repsonse","item":["dev/lon/0254BF020700/if/device/0/nv_PressureState","dev/lon/0254BF020700/if/device/0/nv_FlowState","dev/lon/0254BF020700/if/device/0/nv_HPSolState","dev/lon/0254BF020700/if/device/0/nv_Pressure"],"timeout":10}
+{"response":"0244BF020700/ondemand/repsonse","item":["dev/lon/0244BF020700/if/device/0/nv_PressureState","dev/lon/0244BF020700/if/device/0/nv_FlowState","dev/lon/0244BF020700/if/device/0/nv_HPSolState","dev/lon/0244BF020700/if/device/0/nv_Pressure"],"timeout":10}
+{"response":"025967EF1200/ondemand/repsonse","item":["dev/lon/025967EF1200/if/device/0/nv_PressureState","dev/lon/025967EF1200/if/device/0/nv_FlowState","dev/lon/025967EF1200/if/device/0/nv_HPSolState","dev/lon/025967EF1200/if/device/0/nv_Pressure"],"timeout":10}
+{"response":"025A5BE10500/ondemand/repsonse","item":["dev/lon/025A5BE10500/if/device/0/nv_Temperature","dev/lon/025A5BE10500/if/device/0/nv_Humidity","dev/lon/025A5BE10500/if/device/0/nv_Lights","dev/lon/025A5BE10500/if/device/0/nv_Light_FTC"],"timeout":10}
+{"response":"02626DE10500/ondemand/repsonse","item":["dev/lon/02626DE10500/if/device/0/nv_Temperature","dev/lon/02626DE10500/if/device/0/nv_Humidity","dev/lon/02626DE10500/if/device/0/nv_Lights","dev/lon/02626DE10500/if/device/0/nv_Light_FTC"],"timeout":10}
+{"response":"002321640300/ondemand/repsonse","item":["dev/lon/002321640300/if/device/0/nv_LightOutInfo","dev/lon/002321640300/if/device/0/nv_LightOverride","dev/lon/002321640300/if/device/0/nv_TimeOutInfo"],"timeout":10}
+{"response":"002320961700/ondemand/repsonse","item":["dev/lon/002320961700/if/device/0/nv_LightOutInfo","dev/lon/002320961700/if/device/0/nv_LightOverride","dev/lon/002320961700/if/device/0/nv_TimeOutInfo"],"timeout":10}
+{"response":"002325448200/ondemand/repsonse","item":["dev/lon/002325448200/if/device/0/nv_LightOutInfo","dev/lon/002325448200/if/device/0/nv_LightOverride","dev/lon/002325448200/if/device/0/nv_TimeOutInfo"],"timeout":10}
+{"response":"02DE137A0600/ondemand/repsonse","item":["dev/lon/02DE137A0600/if/device/0/nv_Temperature","dev/lon/02DE137A0600/if/device/0/nv_Humidity","dev/lon/02DE137A0600/if/device/0/nv_Lights","dev/lon/02DE137A0600/if/device/0/nv_Light_FTC"],"timeout":10}
+{"response":"002321640400/ondemand/repsonse","item":["dev/lon/002321640400/if/device/0/nv_LightOutInfo","dev/lon/002321640400/if/device/0/nv_LightOverride","dev/lon/002321640400/if/device/0/nv_TimeOutInfo"],"timeout":10}
+{"response":"002325451500/ondemand/repsonse","item":["dev/lon/002325451500/if/device/0/nv_LightOutInfo","dev/lon/002325451500/if/device/0/nv_LightOverride","dev/lon/002325451500/if/device/0/nv_TimeOutInfo"],"timeout":10}
+{"response":"029417460500/ondemand/repsonse","item":["dev/lon/029417460500/if/device/0/nv_Temperature","dev/lon/029417460500/if/device/0/nv_Humidity","dev/lon/029417460500/if/device/0/nv_Lights","dev/lon/029417460500/if/device/0/nv_Light_FTC"],"timeout":10}
+{"response":"02DF137A0600/ondemand/repsonse","item":["dev/lon/02DF137A0600/if/device/0/nv_Temperature","dev/lon/02DF137A0600/if/device/0/nv_Humidity","dev/lon/02DF137A0600/if/device/0/nv_Lights","dev/lon/02DF137A0600/if/device/0/nv_Light_FTC"],"timeout":10}
+{"response":"02C3CCB00400/ondemand/repsonse","item":["dev/lon/02C3CCB00400/if/device/0/nv_Temperature","dev/lon/02C3CCB00400/if/device/0/nv_Humidity","dev/lon/02C3CCB00400/if/device/0/nv_Lights","dev/lon/02C3CCB00400/if/device/0/nv_Light_FTC"],"timeout":10}
+{"response":"002325448400/ondemand/repsonse","item":["dev/lon/002325448400/if/device/0/nv_LightOutInfo","dev/lon/002325448400/if/device/0/nv_LightOverride","dev/lon/002325448400/if/device/0/nv_TimeOutInfo"],"timeout":10}
+{"response":"02D3CAB00400/ondemand/repsonse","item":["dev/lon/02D3CAB00400/if/device/0/nv_Temperature","dev/lon/02D3CAB00400/if/device/0/nv_Humidity","dev/lon/02D3CAB00400/if/device/0/nv_Lights","dev/lon/02D3CAB00400/if/device/0/nv_Light_FTC"],"timeout":10}
+{"response":"002325449900/ondemand/repsonse","item":["dev/lon/002325449900/if/device/0/nv_LightOutInfo","dev/lon/002325449900/if/device/0/nv_LightOverride","dev/lon/002325449900/if/device/0/nv_TimeOutInfo"],"timeout":10}
+{"response":"002325449800/ondemand/repsonse","item":["dev/lon/002325449800/if/device/0/nv_LightOutInfo","dev/lon/002325449800/if/device/0/nv_LightOverride","dev/lon/002325449800/if/device/0/nv_TimeOutInfo"],"timeout":10}
+{"response":"0260147A0600/ondemand/repsonse","item":["dev/lon/0260147A0600/if/device/0/nv_Temperature","dev/lon/0260147A0600/if/device/0/nv_Humidity","dev/lon/0260147A0600/if/device/0/nv_Lights","dev/lon/0260147A0600/if/device/0/nv_Light_FTC"],"timeout":10}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/0254BF020700/if/device/0/nv_PressureState/bc2778bf9918d40453c44f42030224cf"}
+{"method":"GET"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/0254BF020700/if/device/0/nv_FlowState/bc2778bf9918d40453c44f42030224cf"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/0254BF020700/if/device/0/nv_HPSolState/bc2778bf9918d40453c44f42030224cf"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/0254BF020700/if/device/0/nv_Pressure/bc2778bf9918d40453c44f42030224cf"}
+{"method":"PUT","url":"/~/10/fb/VirtualFb/dp/nv_PressureState/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.007Z","value":1},"status":200}
+{"value":1,"health":"normal"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/0244BF020700/if/device/0/nv_PressureState/901c965fe0085680696672eeaf68af7e"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/0244BF020700/if/device/0/nv_FlowState/901c965fe0085680696672eeaf68af7e"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/0244BF020700/if/device/0/nv_HPSolState/901c965fe0085680696672eeaf68af7e"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/0244BF020700/if/device/0/nv_Pressure/901c965fe0085680696672eeaf68af7e"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/025967EF1200/if/device/0/nv_PressureState/e07f599690eafbb68887875353a70402"}
+{"method":"GET"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/025967EF1200/if/device/0/nv_FlowState/e07f599690eafbb68887875353a70402"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/025967EF1200/if/device/0/nv_HPSolState/e07f599690eafbb68887875353a70402"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/025967EF1200/if/device/0/nv_Pressure/e07f599690eafbb68887875353a70402"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/025A5BE10500/if/device/0/nv_Temperature/b1499b37347d591876235608a1755953"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/025A5BE10500/if/device/0/nv_Humidity/b1499b37347d591876235608a1755953"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/025A5BE10500/if/device/0/nv_Lights/b1499b37347d591876235608a1755953"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/025A5BE10500/if/device/0/nv_Light_FTC/b1499b37347d591876235608a1755953"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02626DE10500/if/device/0/nv_Temperature/48b556c92471b2eafc7a532b5b491187"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02626DE10500/if/device/0/nv_Humidity/48b556c92471b2eafc7a532b5b491187"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02626DE10500/if/device/0/nv_Lights/48b556c92471b2eafc7a532b5b491187"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02626DE10500/if/device/0/nv_Light_FTC/48b556c92471b2eafc7a532b5b491187"}
+{"method":"GET"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002321640300/if/device/0/nv_LightOutInfo/1d0d77ee2e81de0fe40088654f13a037"}
+{"method":"GET"}
+{"method":"GET"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002321640300/if/device/0/nv_LightOverride/1d0d77ee2e81de0fe40088654f13a037"}
+{"method":"GET"}
+
+
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002321640300/if/device/0/nv_TimeOutInfo/1d0d77ee2e81de0fe40088654f13a037"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002320961700/if/device/0/nv_LightOutInfo/89eb8028527c041cbe4b863001f6328f"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002320961700/if/device/0/nv_LightOverride/89eb8028527c041cbe4b863001f6328f"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002320961700/if/device/0/nv_TimeOutInfo/89eb8028527c041cbe4b863001f6328f"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325448200/if/device/0/nv_LightOutInfo/91d4966b96e35545f801f6a32ff4138b"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325448200/if/device/0/nv_LightOverride/91d4966b96e35545f801f6a32ff4138b"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325448200/if/device/0/nv_TimeOutInfo/91d4966b96e35545f801f6a32ff4138b"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02DE137A0600/if/device/0/nv_Temperature/f20dab8819d54021757305a3f7ddd542"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02DE137A0600/if/device/0/nv_Humidity/f20dab8819d54021757305a3f7ddd542"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02DE137A0600/if/device/0/nv_Lights/f20dab8819d54021757305a3f7ddd542"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02DE137A0600/if/device/0/nv_Light_FTC/f20dab8819d54021757305a3f7ddd542"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002321640400/if/device/0/nv_LightOutInfo/8f5fdb02e7dad9d4d15f80510a2720a7"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002321640400/if/device/0/nv_LightOverride/8f5fdb02e7dad9d4d15f80510a2720a7"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002321640400/if/device/0/nv_TimeOutInfo/8f5fdb02e7dad9d4d15f80510a2720a7"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325451500/if/device/0/nv_LightOutInfo/516a24b06f4ae2ee5295ea073db32100"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325451500/if/device/0/nv_LightOverride/516a24b06f4ae2ee5295ea073db32100"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325451500/if/device/0/nv_TimeOutInfo/516a24b06f4ae2ee5295ea073db32100"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/029417460500/if/device/0/nv_Temperature/c165e50f00dc6a6587907ed35e71107e"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/029417460500/if/device/0/nv_Humidity/c165e50f00dc6a6587907ed35e71107e"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/029417460500/if/device/0/nv_Lights/c165e50f00dc6a6587907ed35e71107e"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/029417460500/if/device/0/nv_Light_FTC/c165e50f00dc6a6587907ed35e71107e"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02DF137A0600/if/device/0/nv_Temperature/d76f05fb30c887c33e8f3988ed691dbe"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02DF137A0600/if/device/0/nv_Humidity/d76f05fb30c887c33e8f3988ed691dbe"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02DF137A0600/if/device/0/nv_Lights/d76f05fb30c887c33e8f3988ed691dbe"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02DF137A0600/if/device/0/nv_Light_FTC/d76f05fb30c887c33e8f3988ed691dbe"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02C3CCB00400/if/device/0/nv_Temperature/c0a735411359a5204dfae69a1fbed2a3"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"PUT","url":"/~/10/fb/VirtualFb/dp/nv_FlowState/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.071Z","value":0},"status":200}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02C3CCB00400/if/device/0/nv_Humidity/c0a735411359a5204dfae69a1fbed2a3"}
+{"method":"GET"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02C3CCB00400/if/device/0/nv_Lights/c0a735411359a5204dfae69a1fbed2a3"}
+{"method":"GET"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02C3CCB00400/if/device/0/nv_Light_FTC/c0a735411359a5204dfae69a1fbed2a3"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325448400/if/device/0/nv_LightOutInfo/293cf225330437c3f0f7a7317ea6ec8d"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325448400/if/device/0/nv_LightOverride/293cf225330437c3f0f7a7317ea6ec8d"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325448400/if/device/0/nv_TimeOutInfo/293cf225330437c3f0f7a7317ea6ec8d"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02D3CAB00400/if/device/0/nv_Temperature/ca6f25065ae79d34d09cbec34255daaf"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02D3CAB00400/if/device/0/nv_Humidity/ca6f25065ae79d34d09cbec34255daaf"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02D3CAB00400/if/device/0/nv_Lights/ca6f25065ae79d34d09cbec34255daaf"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/02D3CAB00400/if/device/0/nv_Light_FTC/ca6f25065ae79d34d09cbec34255daaf"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325449900/if/device/0/nv_LightOutInfo/0d8355d34058f7c94e58df67e731fd6b"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325449900/if/device/0/nv_LightOverride/0d8355d34058f7c94e58df67e731fd6b"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325449900/if/device/0/nv_TimeOutInfo/0d8355d34058f7c94e58df67e731fd6b"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325449800/if/device/0/nv_LightOutInfo/9085447ea78c48d79f21831186ba9bdb"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325449800/if/device/0/nv_LightOverride/9085447ea78c48d79f21831186ba9bdb"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/002325449800/if/device/0/nv_TimeOutInfo/9085447ea78c48d79f21831186ba9bdb"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/0260147A0600/if/device/0/nv_Temperature/13386df0b1e7f8eac3da36fd817c60a4"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/0260147A0600/if/device/0/nv_Humidity/13386df0b1e7f8eac3da36fd817c60a4"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/0260147A0600/if/device/0/nv_Lights/13386df0b1e7f8eac3da36fd817c60a4"}
+{"timeout":10,"respond":"glp/0/./=engine/lon/fb/poll/dev/lon/0260147A0600/if/device/0/nv_Light_FTC/13386df0b1e7f8eac3da36fd817c60a4"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"PUT","url":"/~/11/fb/VirtualFb/dp/nv_PressureState/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.094Z","value":1},"status":200}
+{"method":"GET"}
+{"method":"PUT","url":"/~/11/fb/VirtualFb/dp/nv_FlowState/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.115Z","value":0},"status":200}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"value":0,"health":"normal"}
+{"method":"PUT","url":"/~/10/fb/VirtualFb/dp/nv_HPSolState/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.162Z","value":0},"status":200}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"value":1,"health":"normal"}
+{"value":0,"health":"normal"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"method":"GET"}
+{"value":0,"health":"normal"}
+{"method":"PUT","url":"/~/11/fb/VirtualFb/dp/nv_HPSolState/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.192Z","value":0},"status":200}
+{"value":0,"health":"normal"}
+{"method":"PUT","url":"/~/10/fb/VirtualFb/dp/nv_Pressure/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.245Z","value":4.827},"status":200}
+{"method":"PUT","url":"/~/11/fb/VirtualFb/dp/nv_Pressure/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.254Z","value":4.195},"status":200}
+{"value":4.827,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:51.245Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/0254BF020700/if/device/0","health":"normal","message":"nv_Pressure/value","data":4.827,"source":"lon"}
+{"value":4.195,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:51.254Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/0244BF020700/if/device/0","health":"normal","message":"nv_Pressure/value","data":4.195,"source":"lon"}
+{"method":"PUT","url":"/~/13/fb/VirtualFb/dp/nv_Temperature/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.273Z","value":72.09},"status":200}
+{"result":[{"value":1,"health":"normal","item":"dev/lon/0254BF020700/if/device/0/nv_PressureState"},{"value":0,"health":"normal","item":"dev/lon/0254BF020700/if/device/0/nv_FlowState"},{"value":0,"health":"normal","item":"dev/lon/0254BF020700/if/device/0/nv_HPSolState"},{"value":4.827,"health":"normal","item":"dev/lon/0254BF020700/if/device/0/nv_Pressure"}]}
+{"result":[{"value":1,"health":"normal","item":"dev/lon/0244BF020700/if/device/0/nv_PressureState"},{"value":0,"health":"normal","item":"dev/lon/0244BF020700/if/device/0/nv_FlowState"},{"value":0,"health":"normal","item":"dev/lon/0244BF020700/if/device/0/nv_HPSolState"},{"value":4.195,"health":"normal","item":"dev/lon/0244BF020700/if/device/0/nv_Pressure"}]}
+{"method":"PUT","url":"/~/13/fb/VirtualFb/dp/nv_Humidity/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.293Z","value":34.36},"status":200}
+{"method":"PUT","url":"/~/13/fb/VirtualFb/dp/nv_Lights/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.311Z","value":0},"status":200}
+{"value":72.09,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:51.273Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/025A5BE10500/if/device/0","health":"normal","message":"nv_Temperature/value","data":72.09,"source":"lon"}
+{"value":34.36,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:51.293Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/025A5BE10500/if/device/0","health":"normal","message":"nv_Humidity/value","data":34.36,"source":"lon"}
+{"method":"PUT","url":"/~/12/fb/VirtualFb/dp/nv_PressureState/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.318Z","value":1},"status":200}
+{"value":0,"health":"normal"}
+{"value":1,"health":"normal"}
+{"method":"PUT","url":"/~/13/fb/VirtualFb/dp/nv_Light_FTC/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.335Z","value":103},"status":200}
+{"method":"PUT","url":"/~/14/fb/VirtualFb/dp/nv_Temperature/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.357Z","value":73.36},"status":200}
+{"value":103,"health":"normal"}
+{"value":73.36,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:51.357Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/02626DE10500/if/device/0","health":"normal","message":"nv_Temperature/value","data":73.36,"source":"lon"}
+{"method":"PUT","url":"/~/14/fb/VirtualFb/dp/nv_Humidity/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.377Z","value":34.19},"status":200}
+{"result":[{"value":72.09,"health":"normal","item":"dev/lon/025A5BE10500/if/device/0/nv_Temperature"},{"value":34.36,"health":"normal","item":"dev/lon/025A5BE10500/if/device/0/nv_Humidity"},{"value":0,"health":"normal","item":"dev/lon/025A5BE10500/if/device/0/nv_Lights"},{"value":103,"health":"normal","item":"dev/lon/025A5BE10500/if/device/0/nv_Light_FTC"}]}
+{"value":34.19,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:51.377Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/02626DE10500/if/device/0","health":"normal","message":"nv_Humidity/value","data":34.19,"source":"lon"}
+{"method":"PUT","url":"/~/14/fb/VirtualFb/dp/nv_Lights/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.397Z","value":0},"status":200}
+{"value":0,"health":"normal"}
+{"method":"PUT","url":"/~/12/fb/VirtualFb/dp/nv_FlowState/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.406Z","value":0},"status":200}
+{"method":"PUT","url":"/~/14/fb/VirtualFb/dp/nv_Light_FTC/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.421Z","value":2},"status":200}
+{"value":0,"health":"normal"}
+{"value":2,"health":"normal"}
+{"method":"PUT","url":"/~/15/fb/VirtualFb/dp/nv_LightOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.456Z","value":"00 00 00 00 00 00 00 00 00 00 FF 01 00 01 00 00 00 40 00 00"},"status":200}
+{"value":"00 00 00 00 00 00 00 00 00 00 FF 01 00 01 00 00 00 40 00 00","health":"normal"}
+{"result":[{"value":73.36,"health":"normal","item":"dev/lon/02626DE10500/if/device/0/nv_Temperature"},{"value":34.19,"health":"normal","item":"dev/lon/02626DE10500/if/device/0/nv_Humidity"},{"value":0,"health":"normal","item":"dev/lon/02626DE10500/if/device/0/nv_Lights"},{"value":2,"health":"normal","item":"dev/lon/02626DE10500/if/device/0/nv_Light_FTC"}]}
+{"method":"PUT","url":"/~/12/fb/VirtualFb/dp/nv_HPSolState/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.482Z","value":0},"status":200}
+{"method":"PUT","url":"/~/15/fb/VirtualFb/dp/nv_LightOverride/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.486Z","value":"00 02 14"},"status":200}
+{"value":0,"health":"normal"}
+{"value":"00 02 14","health":"normal"}
+{"method":"PUT","url":"/~/15/fb/VirtualFb/dp/nv_TimeOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.515Z","value":"03 E0 0B 05 18 02"},"status":200}
+{"value":"03 E0 0B 05 18 02","health":"normal"}
+{"result":[{"value":"00 00 00 00 00 00 00 00 00 00 FF 01 00 01 00 00 00 40 00 00","health":"normal","item":"dev/lon/002321640300/if/device/0/nv_LightOutInfo"},{"value":"00 02 14","health":"normal","item":"dev/lon/002321640300/if/device/0/nv_LightOverride"},{"value":"03 E0 0B 05 18 02","health":"normal","item":"dev/lon/002321640300/if/device/0/nv_TimeOutInfo"}]}
+{"method":"PUT","url":"/~/16/fb/VirtualFb/dp/nv_LightOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.541Z","value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00"},"status":200}
+{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal"}
+{"method":"PUT","url":"/~/16/fb/VirtualFb/dp/nv_LightOverride/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.568Z","value":"00 00 00"},"status":200}
+{"value":"00 00 00","health":"normal"}
+{"method":"PUT","url":"/~/12/fb/VirtualFb/dp/nv_Pressure/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.575Z","value":4.447},"status":200}
+{"method":"PUT","url":"/~/17/fb/VirtualFb/dp/nv_LightOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.603Z","value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00"},"status":200}
+{"method":"PUT","url":"/~/16/fb/VirtualFb/dp/nv_TimeOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.607Z","value":"00 2A 03 14 19 04"},"status":200}
+{"value":4.447,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:51.575Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/025967EF1200/if/device/0","health":"normal","message":"nv_Pressure/value","data":4.447,"source":"lon"}
+{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal"}
+{"value":"00 2A 03 14 19 04","health":"normal"}
+{"result":[{"value":1,"health":"normal","item":"dev/lon/025967EF1200/if/device/0/nv_PressureState"},{"value":0,"health":"normal","item":"dev/lon/025967EF1200/if/device/0/nv_FlowState"},{"value":0,"health":"normal","item":"dev/lon/025967EF1200/if/device/0/nv_HPSolState"},{"value":4.447,"health":"normal","item":"dev/lon/025967EF1200/if/device/0/nv_Pressure"}]}
+{"method":"PUT","url":"/~/18/fb/VirtualFb/dp/nv_Temperature/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.630Z","value":72.3},"status":200}
+{"method":"PUT","url":"/~/17/fb/VirtualFb/dp/nv_LightOverride/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.634Z","value":"00 00 00"},"status":200}
+{"value":72.3,"health":"normal"}
+
+
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:51.630Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/02DE137A0600/if/device/0","health":"normal","message":"nv_Temperature/value","data":72.3,"source":"lon"}
+{"value":"00 00 00","health":"normal"}
+{"result":[{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal","item":"dev/lon/002320961700/if/device/0/nv_LightOutInfo"},{"value":"00 00 00","health":"normal","item":"dev/lon/002320961700/if/device/0/nv_LightOverride"},{"value":"00 2A 03 14 19 04","health":"normal","item":"dev/lon/002320961700/if/device/0/nv_TimeOutInfo"}]}
+{"method":"PUT","url":"/~/18/fb/VirtualFb/dp/nv_Humidity/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.652Z","value":37.86},"status":200}
+{"method":"PUT","url":"/~/17/fb/VirtualFb/dp/nv_TimeOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.666Z","value":"00 2A 03 14 19 04"},"status":200}
+{"method":"PUT","url":"/~/18/fb/VirtualFb/dp/nv_Lights/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.681Z","value":0},"status":200}
+{"value":37.86,"health":"normal"}
+{"value":"00 2A 03 14 19 04","health":"normal"}
+{"value":0,"health":"normal"}
+{"method":"PUT","url":"/~/19/fb/VirtualFb/dp/nv_LightOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.696Z","value":"00 00 00 00 00 00 00 00 00 00 FF 00 00 01 00 00 00 40 65 00"},"status":200}
+{"method":"PUT","url":"/~/18/fb/VirtualFb/dp/nv_Light_FTC/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.699Z","value":312},"status":200}
+{"value":"00 00 00 00 00 00 00 00 00 00 FF 00 00 01 00 00 00 40 65 00","health":"normal"}
+{"value":312,"health":"normal"}
+{"result":[{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal","item":"dev/lon/002325448200/if/device/0/nv_LightOutInfo"},{"value":"00 00 00","health":"normal","item":"dev/lon/002325448200/if/device/0/nv_LightOverride"},{"value":"00 2A 03 14 19 04","health":"normal","item":"dev/lon/002325448200/if/device/0/nv_TimeOutInfo"}]}
+{"method":"PUT","url":"/~/19/fb/VirtualFb/dp/nv_LightOverride/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.721Z","value":"00 00 00"},"status":200}
+{"value":"00 00 00","health":"normal"}
+{"method":"PUT","url":"/~/20/fb/VirtualFb/dp/nv_LightOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.729Z","value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00"},"status":200}
+{"result":[{"value":72.3,"health":"normal","item":"dev/lon/02DE137A0600/if/device/0/nv_Temperature"},{"value":37.86,"health":"normal","item":"dev/lon/02DE137A0600/if/device/0/nv_Humidity"},{"value":0,"health":"normal","item":"dev/lon/02DE137A0600/if/device/0/nv_Lights"},{"value":312,"health":"normal","item":"dev/lon/02DE137A0600/if/device/0/nv_Light_FTC"}]}
+{"method":"PUT","url":"/~/19/fb/VirtualFb/dp/nv_TimeOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.752Z","value":"03 D1 0B 05 18 02"},"status":200}
+{"method":"PUT","url":"/~/20/fb/VirtualFb/dp/nv_LightOverride/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.757Z","value":"00 00 00"},"status":200}
+{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal"}
+{"value":"03 D1 0B 05 18 02","health":"normal"}
+{"value":"00 00 00","health":"normal"}
+{"method":"PUT","url":"/~/30/fb/VirtualFb/dp/nv_Temperature/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.778Z","value":69.5},"status":200}
+{"method":"PUT","url":"/~/20/fb/VirtualFb/dp/nv_TimeOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.786Z","value":"00 29 03 14 19 04"},"status":200}
+{"result":[{"value":"00 00 00 00 00 00 00 00 00 00 FF 00 00 01 00 00 00 40 65 00","health":"normal","item":"dev/lon/002321640400/if/device/0/nv_LightOutInfo"},{"value":"00 00 00","health":"normal","item":"dev/lon/002321640400/if/device/0/nv_LightOverride"},{"value":"03 D1 0B 05 18 02","health":"normal","item":"dev/lon/002321640400/if/device/0/nv_TimeOutInfo"}]}
+{"method":"PUT","url":"/~/30/fb/VirtualFb/dp/nv_Humidity/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.801Z","value":37.4},"status":200}
+{"method":"PUT","url":"/~/22/fb/VirtualFb/dp/nv_Temperature/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.805Z","value":69.49},"status":200}
+{"method":"PUT","url":"/~/30/fb/VirtualFb/dp/nv_Lights/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.823Z","value":0},"status":200}
+{"method":"PUT","url":"/~/22/fb/VirtualFb/dp/nv_Humidity/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.829Z","value":38.92},"status":200}
+{"value":69.5,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:51.778Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/029417460500/if/device/0","health":"normal","message":"nv_Temperature/value","data":69.5,"source":"lon"}
+{"value":"00 29 03 14 19 04","health":"normal"}
+{"value":37.4,"health":"normal"}
+{"value":69.49,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:51.805Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/02DF137A0600/if/device/0","health":"normal","message":"nv_Temperature/value","data":69.49,"source":"lon"}
+{"method":"PUT","url":"/~/30/fb/VirtualFb/dp/nv_Light_FTC/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.852Z","value":280},"status":200}
+{"method":"PUT","url":"/~/22/fb/VirtualFb/dp/nv_Lights/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.855Z","value":0},"status":200}
+{"result":[{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal","item":"dev/lon/002325451500/if/device/0/nv_LightOutInfo"},{"value":"00 00 00","health":"normal","item":"dev/lon/002325451500/if/device/0/nv_LightOverride"},{"value":"00 29 03 14 19 04","health":"normal","item":"dev/lon/002325451500/if/device/0/nv_TimeOutInfo"}]}
+{"value":0,"health":"normal"}
+{"value":38.92,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:51.829Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/02DF137A0600/if/device/0","health":"normal","message":"nv_Humidity/value","data":38.92,"source":"lon"}
+{"value":280,"health":"normal"}
+{"value":0,"health":"normal"}
+{ }
+{"health":null,"state":"provisioned","lon":{"ni":{"local":{"channelType":"internal"},"lon0":{"channelType":"TP_FT-10"},"lon1":{"channelType":"TP_FT-10"}}},"mru":"2025-12-13 11:14:38.032 UTC"}
+{"method":"PUT","url":"/~/23/fb/VirtualFb/dp/nv_Temperature/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.883Z","value":70.08},"status":200}
+{"method":"PUT","url":"/~/22/fb/VirtualFb/dp/nv_Light_FTC/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.885Z","value":95},"status":200}
+{"result":[{"value":69.5,"health":"normal","item":"dev/lon/029417460500/if/device/0/nv_Temperature"},{"value":37.4,"health":"normal","item":"dev/lon/029417460500/if/device/0/nv_Humidity"},{"value":0,"health":"normal","item":"dev/lon/029417460500/if/device/0/nv_Lights"},{"value":280,"health":"normal","item":"dev/lon/029417460500/if/device/0/nv_Light_FTC"}]}
+{"method":"PUT","url":"/~/23/fb/VirtualFb/dp/nv_Humidity/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.905Z","value":37.98},"status":200}
+{"value":70.08,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:51.883Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/02C3CCB00400/if/device/0","health":"normal","message":"nv_Temperature/value","data":70.08,"source":"lon"}
+{"method":"PUT","url":"/~/24/fb/VirtualFb/dp/nv_LightOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.918Z","value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00"},"status":200}
+{"value":95,"health":"normal"}
+{"value":37.98,"health":"normal"}
+{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal"}
+{"method":"PUT","url":"/~/23/fb/VirtualFb/dp/nv_Lights/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.928Z","value":0},"status":200}
+{"method":"PUT","url":"/~/24/fb/VirtualFb/dp/nv_LightOverride/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.941Z","value":"00 00 00"},"status":200}
+{"method":"PUT","url":"/~/23/fb/VirtualFb/dp/nv_Light_FTC/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.946Z","value":234},"status":200}
+{"result":[{"value":69.49,"health":"normal","item":"dev/lon/02DF137A0600/if/device/0/nv_Temperature"},{"value":38.92,"health":"normal","item":"dev/lon/02DF137A0600/if/device/0/nv_Humidity"},{"value":0,"health":"normal","item":"dev/lon/02DF137A0600/if/device/0/nv_Lights"},{"value":95,"health":"normal","item":"dev/lon/02DF137A0600/if/device/0/nv_Light_FTC"}]}
+{"method":"PUT","url":"/~/25/fb/VirtualFb/dp/nv_Temperature/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.967Z","value":67.89},"status":200}
+{"value":0,"health":"normal"}
+{"method":"PUT","url":"/~/24/fb/VirtualFb/dp/nv_TimeOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.973Z","value":"00 29 03 14 19 04"},"status":200}
+{"value":"00 00 00","health":"normal"}
+{"value":234,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:51.946Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/02C3CCB00400/if/device/0","health":"normal","message":"nv_Light_FTC/value","data":234,"source":"lon"}
+{"value":67.89,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:51.967Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/02D3CAB00400/if/device/0","health":"normal","message":"nv_Temperature/value","data":67.89,"source":"lon"}
+{"method":"PUT","url":"/~/25/fb/VirtualFb/dp/nv_Humidity/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.989Z","value":43.95},"status":200}
+{"value":"00 29 03 14 19 04","health":"normal"}
+{"result":[{"value":70.08,"health":"normal","item":"dev/lon/02C3CCB00400/if/device/0/nv_Temperature"},{"value":37.98,"health":"normal","item":"dev/lon/02C3CCB00400/if/device/0/nv_Humidity"},{"value":0,"health":"normal","item":"dev/lon/02C3CCB00400/if/device/0/nv_Lights"},{"value":234,"health":"normal","item":"dev/lon/02C3CCB00400/if/device/0/nv_Light_FTC"}]}
+{"method":"PUT","url":"/~/26/fb/VirtualFb/dp/nv_LightOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:51.998Z","value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00"},"status":200}
+{"value":43.95,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:51.989Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/02D3CAB00400/if/device/0","health":"normal","message":"nv_Humidity/value","data":43.95,"source":"lon"}
+{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal"}
+{"result":[{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal","item":"dev/lon/002325448400/if/device/0/nv_LightOutInfo"},{"value":"00 00 00","health":"normal","item":"dev/lon/002325448400/if/device/0/nv_LightOverride"},{"value":"00 29 03 14 19 04","health":"normal","item":"dev/lon/002325448400/if/device/0/nv_TimeOutInfo"}]}
+{"method":"PUT","url":"/~/25/fb/VirtualFb/dp/nv_Lights/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:52.009Z","value":0},"status":200}
+{"method":"PUT","url":"/~/26/fb/VirtualFb/dp/nv_LightOverride/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:52.027Z","value":"00 00 00"},"status":200}
+{"method":"PUT","url":"/~/25/fb/VirtualFb/dp/nv_Light_FTC/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:52.031Z","value":300},"status":200}
+{"value":0,"health":"normal"}
+{"value":"00 00 00","health":"normal"}
+{"value":300,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:52.031Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/02D3CAB00400/if/device/0","health":"normal","message":"nv_Light_FTC/value","data":300,"source":"lon"}
+{"method":"PUT","url":"/~/26/fb/VirtualFb/dp/nv_TimeOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:52.057Z","value":"00 29 03 14 19 04"},"status":200}
+{"value":"00 29 03 14 19 04","health":"normal"}
+{"result":[{"value":67.89,"health":"normal","item":"dev/lon/02D3CAB00400/if/device/0/nv_Temperature"},{"value":43.95,"health":"normal","item":"dev/lon/02D3CAB00400/if/device/0/nv_Humidity"},{"value":0,"health":"normal","item":"dev/lon/02D3CAB00400/if/device/0/nv_Lights"},{"value":300,"health":"normal","item":"dev/lon/02D3CAB00400/if/device/0/nv_Light_FTC"}]}
+{"result":[{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal","item":"dev/lon/002325449900/if/device/0/nv_LightOutInfo"},{"value":"00 00 00","health":"normal","item":"dev/lon/002325449900/if/device/0/nv_LightOverride"},{"value":"00 29 03 14 19 04","health":"normal","item":"dev/lon/002325449900/if/device/0/nv_TimeOutInfo"}]}
+{"method":"PUT","url":"/~/27/fb/VirtualFb/dp/nv_LightOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:52.079Z","value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00"},"status":200}
+{"method":"PUT","url":"/~/28/fb/VirtualFb/dp/nv_Temperature/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:52.083Z","value":70.71},"status":200}
+{"method":"PUT","url":"/~/27/fb/VirtualFb/dp/nv_LightOverride/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:52.105Z","value":"00 00 00"},"status":200}
+{"method":"PUT","url":"/~/28/fb/VirtualFb/dp/nv_Humidity/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:52.111Z","value":36.32},"status":200}
+{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal"}
+{"value":70.71,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:52.083Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/0260147A0600/if/device/0","health":"normal","message":"nv_Temperature/value","data":70.71,"source":"lon"}
+{"value":"00 00 00","health":"normal"}
+{"value":36.32,"health":"normal"}
+{"id":0,"cat":"data","ts":"2026-01-05T14:07:52.111Z","language":"en","urgent":false,"topic":"glp/0/17qja3r/fb/dev/lon/0260147A0600/if/device/0","health":"normal","message":"nv_Humidity/value","data":36.32,"source":"lon"}
+{"method":"PUT","url":"/~/28/fb/VirtualFb/dp/nv_Lights/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:52.132Z","value":0},"status":200}
+{"method":"PUT","url":"/~/27/fb/VirtualFb/dp/nv_TimeOutInfo/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:52.135Z","value":"00 29 03 14 19 04"},"status":200}
+{"method":"PUT","url":"/~/28/fb/VirtualFb/dp/nv_Light_FTC/dat","body":{"status":{},"lastUpdate":"2026-01-05T14:07:52.151Z","value":347},"status":200}
+{"value":0,"health":"normal"}
+{"value":"00 29 03 14 19 04","health":"normal"}
+{"value":347,"health":"normal"}
+{"result":[{"value":"00 00 00 00 00 00 00 00 00 02 FF 01 00 01 00 00 00 40 00 00","health":"normal","item":"dev/lon/002325449800/if/device/0/nv_LightOutInfo"},{"value":"00 00 00","health":"normal","item":"dev/lon/002325449800/if/device/0/nv_LightOverride"},{"value":"00 29 03 14 19 04","health":"normal","item":"dev/lon/002325449800/if/device/0/nv_TimeOutInfo"}]}
+{"result":[{"value":70.71,"health":"normal","item":"dev/lon/0260147A0600/if/device/0/nv_Temperature"},{"value":36.32,"health":"normal","item":"dev/lon/0260147A0600/if/device/0/nv_Humidity"},{"value":0,"health":"normal","item":"dev/lon/0260147A0600/if/device/0/nv_Lights"},{"value":347,"health":"normal","item":"dev/lon/0260147A0600/if/device/0/nv_Light_FTC"}]}
+[{"index":4,"id":"8990865597763018903","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":5,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622071801,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":10,"id":"7626139436874053720","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":3,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622071801,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":0,"id":"7215386233101516180","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":1,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622071801,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":9,"id":"7043197164464151664","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":2,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622071801,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":7,"id":"2965162143653330756","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":8,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622071801,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":2,"id":"1080262314076147726","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":3,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622071801,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":11,"id":"6577405104543876253","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":4,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622071801,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":1,"id":"6185985954753160980","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":2,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622071801,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":8,"id":"5590707937656393508","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":1,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622071801,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":3,"id":"5225847932378870087","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":4,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622071801,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":6,"id":"8181820087050935053","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":7,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622071801,"couplerId":1,"type":"DIGITAL_OUTPUT"},{"index":5,"id":"2905444859910564397","customerId":1070,"pointType":"type.device.end.solenoid.rack","terminal":6,"state":0,"value":0,"stateName":"none","sensorFault":false,"ts":1767622071801,"couplerId":1,"type":"DIGITAL_OUTPUT"}]
+{"method":"PUT","url":"/~/-4/fb/scanner/dp/readsPerSec/dat","body":{"status":{},"lastUpdate":"","value":4.533333},"status":200}
